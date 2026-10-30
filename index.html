@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benchmark CG Cars</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">CG</span>
+      <div>
+        <h1>Benchmark CG Cars</h1>
+        <p class="sub" id="maj">Chargement…</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-view="dashboard" class="active">Tableau de bord</button>
+      <button data-view="comparatif">Comparatif</button>
+      <button data-view="graphiques">Graphiques</button>
+      <button data-view="historique">Historique</button>
+      <button data-view="pubs">Publicités</button>
+      <button data-view="admin">Nos prix</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- TABLEAU DE BORD -->
+    <section id="view-dashboard" class="view active">
+      <div class="kpis" id="kpis"></div>
+      <div class="grid2">
+        <div class="card">
+          <h2>Où CG Cars est le plus cher</h2>
+          <p class="hint">Écart avec le concurrent le moins cher, sur le dernier prix connu de chaque acteur.</p>
+          <div id="alerts"></div>
+        </div>
+        <div class="card">
+          <h2>Mouvements des 7 derniers jours</h2>
+          <p class="hint">Nouveaux prix publiés par les concurrents.</p>
+          <div id="moves"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Activité publicitaire (Meta Ad Library)</h2>
+        <div id="adsSummary" class="adsSummary"></div>
+      </div>
+    </section>
+
+    <!-- COMPARATIF -->
+    <section id="view-comparatif" class="view">
+      <div class="card">
+        <div class="toolbar">
+          <h2>Comparatif par modèle</h2>
+          <label class="check"><input type="checkbox" id="onlyTF" checked> Prix « tous frais compris / TTC » uniquement</label>
+        </div>
+        <p class="hint">Dernier prix connu de chaque acteur, en millions de centimes. Le prix le plus bas de chaque ligne est en vert. Écart = prix CG − prix concurrent (négatif = CG moins cher). Survole un prix pour voir sa base et sa date.</p>
+        <div class="tablewrap"><table id="compTable" class="data"></table></div>
+      </div>
+    </section>
+
+    <!-- GRAPHIQUES -->
+    <section id="view-graphiques" class="view">
+      <div class="card">
+        <div class="toolbar">
+          <h2>Évolution des prix</h2>
+          <select id="chartModel"></select>
+          <label class="check"><input type="checkbox" id="chartTF" checked> Tous frais / TTC uniquement</label>
+        </div>
+        <div id="bigChart" class="chart big"></div>
+      </div>
+      <div class="smallcharts" id="smallCharts"></div>
+    </section>
+
+    <!-- HISTORIQUE -->
+    <section id="view-historique" class="view">
+      <div class="card">
+        <div class="toolbar">
+          <h2>Historique des prix relevés</h2>
+          <select id="fActeur"><option value="">Tous les acteurs</option></select>
+          <select id="fModele"><option value="">Tous les modèles</option></select>
+          <input id="fSearch" type="search" placeholder="Rechercher (modèle, version, base…)">
+          <button id="csvBtn" class="btn ghost">Exporter CSV</button>
+        </div>
+        <p class="hint" id="histCount"></p>
+        <div class="tablewrap"><table id="histTable" class="data"></table></div>
+      </div>
+    </section>
+
+    <!-- PUBLICITÉS -->
+    <section id="view-pubs" class="view">
+      <div class="card">
+        <div class="toolbar">
+          <h2>Publicités des concurrents</h2>
+          <select id="fAdActeur"><option value="">Tous les concurrents</option></select>
+          <select id="fAdStatus"><option value="">Tous statuts</option><option value="Active">Actives</option><option value="Inactive">Inactives</option></select>
+        </div>
+        <p class="hint">Source : Meta Ad Library (Algérie). Chaque carte renvoie vers la publicité dans la bibliothèque.</p>
+        <div id="adsGrid" class="adsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ADMIN -->
+    <section id="view-admin" class="view">
+      <div class="card">
+        <h2>Nos prix CG Cars</h2>
+        <p class="hint">Modifie, ajoute ou supprime des lignes, puis clique sur « Enregistrer ». L'enregistrement publie la grille dans le dépôt GitHub de la plateforme ; chaque prix modifié est ajouté à l'historique (les courbes CG Cars évoluent). Prix en millions de centimes.</p>
+        <div class="tokenbox">
+          <label>Jeton GitHub (accès en écriture au dépôt)
+            <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
+          </label>
+          <label class="check"><input type="checkbox" id="rememberToken"> Mémoriser sur cet appareil</label>
+          <span id="repoInfo" class="hint"></span>
+        </div>
+        <div class="tablewrap"><table id="adminTable" class="data edit"></table></div>
+        <div class="actions">
+          <button id="addRow" class="btn ghost">+ Ajouter une ligne</button>
+          <button id="exportCg" class="btn ghost">Télécharger le JSON</button>
+          <button id="saveCg" class="btn">Enregistrer</button>
+          <span id="saveMsg" class="msg"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+  <footer>Données : posts Facebook et Meta Ad Library des concurrents, grille interne CG Cars. Mise à jour quotidienne par l'agent de veille.</footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1568 @@
+{
+ "maj": "2026-10-30T15:00:00Z",
+ "unite": "Millions de centimes (M). 1 M = 10 000 DA.",
+ "acteurs": [
+  {
+   "nom": "CG Cars",
+   "couleur": "#16a34a",
+   "nous": true,
+   "facebook": ""
+  },
+  {
+   "nom": "Raïs Cars",
+   "couleur": "#dc2626",
+   "facebook": "https://www.facebook.com/people/Ra%C3%AFs-Cars/61580146187839/"
+  },
+  {
+   "nom": "CHM Automotive",
+   "couleur": "#2563eb",
+   "facebook": "https://www.facebook.com/people/CHM-Automotive/61571499525521/"
+  },
+  {
+   "nom": "Nesrat Auto",
+   "couleur": "#ea580c",
+   "facebook": "https://www.facebook.com/profile.php?id=61574165332703"
+  },
+  {
+   "nom": "China Car Go",
+   "couleur": "#7c3aed",
+   "facebook": "https://www.facebook.com/profile.php?id=61582980193476"
+  }
+ ],
+ "modeles": [
+  {
+   "cle": "coolray_mt",
+   "libelle": "Geely Coolray MT / Manuel"
+  },
+  {
+   "cle": "coolray_battle",
+   "libelle": "Geely Coolray Battle"
+  },
+  {
+   "cle": "coolray_full",
+   "libelle": "Geely Coolray Full / GF"
+  },
+  {
+   "cle": "livan_mt",
+   "libelle": "Livan X3 Pro / GX3 Pro manuelle (-3 ans)"
+  },
+  {
+   "cle": "livan_mt_neuf",
+   "libelle": "Livan X3 Pro / GX3 Pro manuelle (neuf)"
+  },
+  {
+   "cle": "roewe_i5",
+   "libelle": "Roewe i5"
+  },
+  {
+   "cle": "gac_gs3_entree",
+   "libelle": "GAC GS3 Basic / Enjoy"
+  },
+  {
+   "cle": "gac_gs3_smart",
+   "libelle": "GAC GS3 Smart Edition"
+  },
+  {
+   "cle": "gac_gs4_max",
+   "libelle": "GAC GS4 Max"
+  },
+  {
+   "cle": "arrizo5_neuf",
+   "libelle": "Chery Arrizo 5 (neuf)"
+  },
+  {
+   "cle": "tiggo2_neuf",
+   "libelle": "Chery Tiggo 2 (neuf)"
+  },
+  {
+   "cle": "mg5",
+   "libelle": "MG5"
+  },
+  {
+   "cle": "changan_x5plus",
+   "libelle": "Changan X5 Plus"
+  },
+  {
+   "cle": "jetta_vs5",
+   "libelle": "Jetta VS5"
+  },
+  {
+   "cle": "jetour_x70l",
+   "libelle": "Jetour X70 L"
+  },
+  {
+   "cle": "audi_a3",
+   "libelle": "Audi A3"
+  }
+ ],
+ "observations": [
+  {
+   "date": "2026-10-30",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs3_entree",
+   "modele": "GAC GS3",
+   "version": "Basic",
+   "prix": 339.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-30",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuel",
+   "prix": 318.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium",
+   "prix": 368.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Nesrat Auto",
+   "cle": "gac_gs4_max",
+   "modele": "GAC GS4 Max",
+   "version": "0 km, -3 ans",
+   "prix": 428.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS4 Max",
+   "version": "0 km, -3 ans",
+   "prix": 360.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Auto blanc",
+   "prix": 240.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Auto gris souris",
+   "prix": 245.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Manuel + toit",
+   "prix": 235.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "CHM Automotive",
+   "cle": "tiggo2_neuf",
+   "modele": "Chery Tiggo 2 Pro",
+   "version": "Neuf, sur commande",
+   "prix": 345.0,
+   "base": "Tous frais compris, sans TVN",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-28",
+   "acteur": "Raïs Cars",
+   "cle": "livan_mt",
+   "modele": "Livan X3 Pro",
+   "version": "-3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-28",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Battle",
+   "prix": 399.0,
+   "base": "Tous frais compris",
+   "notes": "« Dernier épisode » de l'offre",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-28",
+   "acteur": "CHM Automotive",
+   "cle": "arrizo5_neuf",
+   "modele": "Chery Arrizo 5",
+   "version": "Sans toit ouvrant, neuf",
+   "prix": 324.0,
+   "base": "Tous frais compris, sans TVN",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-26",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle",
+   "prix": 334.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-26",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetour X70 L",
+   "version": "7 places, carte grise",
+   "prix": 720.0,
+   "base": "Carte grise",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-26",
+   "acteur": "Nesrat Auto",
+   "cle": "roewe_i5",
+   "modele": "Roewe i5",
+   "version": "Manuel",
+   "prix": 259.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-26",
+   "acteur": "Nesrat Auto",
+   "cle": "mg5",
+   "modele": "MG5",
+   "version": "Manuel noir",
+   "prix": 275.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-26",
+   "acteur": "Nesrat Auto",
+   "cle": "jetta_vs5",
+   "modele": "Jetta VS5",
+   "version": "Flagship gris Nardo",
+   "prix": 455.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi Q3",
+   "version": "Standard",
+   "prix": 645.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi Q3",
+   "version": "Kit RS",
+   "prix": 720.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "Luxury Top gris Nardo",
+   "prix": 549.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "audi_a3",
+   "modele": "Audi A3",
+   "version": "Luxury Top gris Nardo",
+   "prix": 639.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "Luxury Top, frais 2027",
+   "prix": 684.0,
+   "base": "Tous frais compris (2027)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Manuel",
+   "prix": 325.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond Pro",
+   "prix": 365.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-25",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Excellent Pro",
+   "prix": 380.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-24",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC M6 Pro",
+   "version": "-3 ans, 7 places",
+   "prix": 425.0,
+   "base": "Hors douane",
+   "notes": "Douane estimée 60-65 M",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-24",
+   "acteur": "Raïs Cars",
+   "cle": "jetour_x70l",
+   "modele": "Jetour X70 L",
+   "version": "2025",
+   "prix": 498.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-24",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos",
+   "version": "Luxury",
+   "prix": 465.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-24",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos",
+   "version": "Full option",
+   "prix": 490.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Full R-Style",
+   "prix": 435.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Full option",
+   "prix": 417.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium",
+   "prix": 358.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "gac_gs3_entree",
+   "modele": "GAC GS3",
+   "version": "Basic",
+   "prix": 329.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuel gris",
+   "prix": 299.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuel blanc",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Super Max",
+   "prix": 315.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Super Max New",
+   "prix": 344.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_full",
+   "modele": "Geely Coolray",
+   "version": "Full option (à partir de)",
+   "prix": 395.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Auto blanc",
+   "prix": 299.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Auto gris souris",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "livan_mt",
+   "modele": "Livan X3 Pro",
+   "version": "Manuel + toit",
+   "prix": 289.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetta VS5",
+   "version": "Flagship 2026 0 km",
+   "prix": 465.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetta VS5",
+   "version": "Flagship 2026 0 km",
+   "prix": 395.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "R-Style 2026",
+   "prix": 450.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "R-Style 2026",
+   "prix": 380.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium 2026",
+   "prix": 368.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium 2026",
+   "prix": 298.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Basic",
+   "prix": 339.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Basic",
+   "prix": 269.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuel blanc (offre)",
+   "prix": 312.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuel gris (offre)",
+   "prix": 309.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuel gris (offre)",
+   "prix": 257.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "MG5",
+   "version": "Manuel 2026",
+   "prix": 208.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond Pro 2026",
+   "prix": 375.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond Pro 2026",
+   "prix": 310.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Battle full option gris",
+   "prix": 405.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle full option blanc",
+   "prix": 410.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-21",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle full option gris",
+   "prix": 350.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi Q3",
+   "version": "Standard",
+   "prix": 545.0,
+   "base": "Non précisé",
+   "notes": "Offre loueurs",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "jetta_vs5",
+   "modele": "Jetta VS5",
+   "version": "",
+   "prix": 390.0,
+   "base": "Hors douane",
+   "notes": "Douane estimée ~110 M",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "2027",
+   "prix": 559.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Promo -50 M",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "2027",
+   "prix": 597.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuel",
+   "prix": 256.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs4_max",
+   "modele": "GAC GS4 Max",
+   "version": "",
+   "prix": 390.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely M9",
+   "version": "",
+   "prix": 990.0,
+   "base": "Non précisé",
+   "notes": "Prix suggéré",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "Raïs Cars",
+   "cle": "mg5",
+   "modele": "MG5",
+   "version": "Version mexicaine",
+   "prix": 228.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "VW Passat Pro",
+   "version": "2026, carte grise",
+   "prix": 799.0,
+   "base": "Carte grise, showroom",
+   "notes": "Promo 808 → 799",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "CHM Automotive",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuel, -3 ans",
+   "prix": 320.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "CHM Automotive",
+   "cle": "livan_mt",
+   "modele": "Livan GX3 Pro",
+   "version": "MT avec toit, -3 ans",
+   "prix": 300.0,
+   "base": "TTC",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-20",
+   "acteur": "CHM Automotive",
+   "cle": "livan_mt_neuf",
+   "modele": "Livan GX3 Pro",
+   "version": "MT, neuf",
+   "prix": 320.0,
+   "base": "TTC sans TVN",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "gac_gs4_max",
+   "modele": "GAC GS4 Max",
+   "version": "2026 0 km",
+   "prix": 428.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "roewe_i5",
+   "modele": "Roewe i5",
+   "version": "Manuel 2026",
+   "prix": 259.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Roewe i5",
+   "version": "Manuel 2026",
+   "prix": 205.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Full option blanc",
+   "prix": 402.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_full",
+   "modele": "Geely Coolray",
+   "version": "Full option gris",
+   "prix": 399.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "livan_mt",
+   "modele": "Livan X3 Pro",
+   "version": "Manuel 2026",
+   "prix": 299.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Manuel 2026",
+   "prix": 238.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Auto blanc",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Cowboy",
+   "prix": 415.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Super Max New (facelift)",
+   "prix": 354.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-14",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuel gris",
+   "prix": 309.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-13",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "2027",
+   "prix": 579.0,
+   "base": "Non précisé",
+   "notes": "19 unités",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-13",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG3",
+   "version": "Manuel, -3 ans",
+   "prix": 289.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-10",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Basic",
+   "prix": 264.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-10",
+   "acteur": "CHM Automotive",
+   "cle": "jetour_x70l",
+   "modele": "Jetour X70 L",
+   "version": "Luxury Plus, -3 ans",
+   "prix": 604.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-10",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "Jetour X70 L",
+   "version": "Luxury Plus, neuf",
+   "prix": 644.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-07",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "VW T-Cross",
+   "version": "2024, -3 ans",
+   "prix": 309.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-07",
+   "acteur": "Nesrat Auto",
+   "cle": "jetour_x70l",
+   "modele": "Jetour X70 L",
+   "version": "2026, 7 places",
+   "prix": 575.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-07",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetour X70 L",
+   "version": "2026, 7 places",
+   "prix": 495.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle",
+   "prix": 328.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs3_smart",
+   "modele": "GAC GS3",
+   "version": "Smart Edition 177 ch",
+   "prix": 335.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Full options 0 km, carte grise",
+   "prix": 468.0,
+   "base": "Carte grise",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "CHM Automotive",
+   "cle": "mg5",
+   "modele": "MG5",
+   "version": "Version mexicaine, carte grise",
+   "prix": 339.0,
+   "base": "Carte grise, showroom",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "CHM Automotive",
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Full / Battle, -3 ans",
+   "prix": 415.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "CHM Automotive",
+   "cle": "coolray_full",
+   "modele": "Geely Coolray",
+   "version": "Full / Battle, -3 ans",
+   "prix": 415.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-06",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG3",
+   "version": "Manuel, -3 ans",
+   "prix": 285.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-02",
+   "acteur": "CHM Automotive",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Luxury manuelle, carte grise",
+   "prix": 385.0,
+   "base": "Carte grise, showroom",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Battle 2026",
+   "prix": 395.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle 2026",
+   "prix": 325.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "jetta_vs5",
+   "modele": "Jetta VS5",
+   "version": "Flagship",
+   "prix": 465.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "audi_a3",
+   "modele": "Audi A3",
+   "version": "Luxury Top",
+   "prix": 695.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Audi A3",
+   "version": "Luxury Top",
+   "prix": 625.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Roewe i5",
+   "version": "-3 ans 0 km",
+   "prix": 269.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Roewe i5",
+   "version": "Neuf 2026",
+   "prix": 199.0,
+   "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Manuel",
+   "prix": 325.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "gac_gs3_entree",
+   "modele": "GAC GS3",
+   "version": "Basic 2026",
+   "prix": 334.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-01",
+   "acteur": "Nesrat Auto",
+   "cle": "mg5",
+   "modele": "MG5",
+   "version": "Manuel",
+   "prix": 289.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-09-29",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Basic auto, carte grise",
+   "prix": 420.0,
+   "base": "Carte grise, showroom",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-09-29",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Top Silver, carte grise",
+   "prix": 499.0,
+   "base": "Carte grise, showroom",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-09-29",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG3",
+   "version": "Manuel, neuf",
+   "prix": 285.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-09-25",
+   "acteur": "Raïs Cars",
+   "cle": "roewe_i5",
+   "modele": "Roewe i5",
+   "version": "Auto, -3 ans",
+   "prix": 270.0,
+   "base": "Non précisé",
+   "notes": "",
+   "source": "Post Facebook"
+  }
+ ],
+ "publicites": {
+  "Raïs Cars": [
+   {
+    "id": "1052384094481788",
+    "status": "Active",
+    "start": "2026-10-23",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Audi Q3",
+    "prix": 645,
+    "base": "Hors douane (douane 145-160 M en plus)",
+    "accroche": "🚗 Audi Q3 بسعر 645 مليون سنتيم! 🔥",
+    "resume": "SUV premium « luxe et style », prix 645 M, douane annoncée 145 à 160 M, showroom Rouiba.",
+    "url": "https://www.facebook.com/ads/library/?id=1052384094481788"
+   },
+   {
+    "id": "3606734806154342",
+    "status": "Active",
+    "start": "2026-10-23",
+    "format": "Vidéo 1:09",
+    "cta": "Appeler",
+    "modele": "Audi Q3",
+    "prix": 645,
+    "base": "Hors douane (douane 145-160 M en plus)",
+    "accroche": "🚗 Audi Q3 بسعر 645 مليون سنتيم! 🔥",
+    "resume": "Même message que l'image, en version vidéo.",
+    "url": "https://www.facebook.com/ads/library/?id=3606734806154342"
+   },
+   {
+    "id": "1022397644204242",
+    "status": "Active",
+    "start": "2026-10-28",
+    "format": "Vidéo 0:42",
+    "cta": "Appeler",
+    "modele": "Livan X3 Pro manuelle",
+    "prix": 290,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 LIVAN X3 PRO MANUELLE – بسعر 290 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "SUV jeune et économique, 290 M TTC tous frais, moins de 3 ans.",
+    "url": "https://www.facebook.com/ads/library/?id=1022397644204242"
+   },
+   {
+    "id": "1135897245520046",
+    "status": "Active",
+    "start": "2026-10-28",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Livan X3 Pro manuelle",
+    "prix": 290,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 LIVAN X3 PRO MANUELLE – بسعر 290 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Version image, même offre ; « profitez-en, réservez maintenant ».",
+    "url": "https://www.facebook.com/ads/library/?id=1135897245520046"
+   },
+   {
+    "id": "1667201808348252",
+    "status": "Active",
+    "start": "2026-10-28",
+    "format": "Vidéo 0:32",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 Geely Coolray Battle – بسعر 399 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Couleur gris, design sportif, 399 M TTC tous frais, moins de 3 ans.",
+    "url": "https://www.facebook.com/ads/library/?id=1667201808348252"
+   },
+   {
+    "id": "4607207639491514",
+    "status": "Active",
+    "start": "2026-10-28",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 Geely Coolray Battle – بسعر 399 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Version image, même offre.",
+    "url": "https://www.facebook.com/ads/library/?id=4607207639491514"
+   },
+   {
+    "id": "1129920776104049",
+    "status": "Active",
+    "start": "2026-10-29",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 GAC GS3 Medium أقل من 3 سنوات بسعر 368 مليون !",
+    "resume": "Style sportif, 368 M TTC tous frais, moins de 3 ans.",
+    "url": "https://www.facebook.com/ads/library/?id=1129920776104049"
+   },
+   {
+    "id": "1685054386501831",
+    "status": "Active",
+    "start": "2026-10-29",
+    "format": "Vidéo 0:48",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 GAC GS3 Medium أقل من 3 سنوات بسعر 368 مليون !",
+    "resume": "Version vidéo, même offre.",
+    "url": "https://www.facebook.com/ads/library/?id=1685054386501831"
+   },
+   {
+    "id": "1697514495136000",
+    "status": "Active",
+    "start": "2026-10-29",
+    "format": "Vidéo 0:46",
+    "cta": "Appeler",
+    "modele": "Changan X5 Plus Beyond",
+    "prix": 385,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 Changan X5 Plus Beyond بسعر 385 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "SUV sportif, 385 M TTC tous frais, moins de 3 ans.",
+    "url": "https://www.facebook.com/ads/library/?id=1697514495136000"
+   },
+   {
+    "id": "1683809433172323",
+    "status": "Active",
+    "start": "2026-10-29",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Changan X5 Plus Beyond",
+    "prix": 385,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 Changan X5 Plus Beyond بسعر 385 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Version image, même offre.",
+    "url": "https://www.facebook.com/ads/library/?id=1683809433172323"
+   },
+   {
+    "id": "2883467645362662",
+    "status": "Active",
+    "start": "2026-10-30",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Basic",
+    "prix": 399,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 GAC GS3 Basic – القوة والأناقة بسعر 399 مليون سنتيم TTC!",
+    "resume": "Lancée aujourd'hui. Attention : 399 M dans la pub contre 339 M dans le post du même jour (erreur probable de la pub).",
+    "url": "https://www.facebook.com/ads/library/?id=2883467645362662"
+   },
+   {
+    "id": "3509350685893175",
+    "status": "Active",
+    "start": "2026-10-30",
+    "format": "Vidéo 0:37",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Manuel",
+    "prix": 318,
+    "base": "Tous frais compris, -3 ans",
+    "accroche": "🚗 Geely Coolray Manuel – أقل من 3 سنوات بسعر 318 مليون سنتيم",
+    "resume": "Lancée aujourd'hui. 318 M tous frais, moins de 3 ans.",
+    "url": "https://www.facebook.com/ads/library/?id=3509350685893175"
+   },
+   {
+    "id": "1865552727934191",
+    "status": "Active",
+    "start": "2026-10-30",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Manuel",
+    "prix": 318,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗 Geely Coolray Manuel – أقل من 3 سنوات بسعر 318 مليون سنتيم TTC!",
+    "resume": "Version image, même offre.",
+    "url": "https://www.facebook.com/ads/library/?id=1865552727934191"
+   }
+  ],
+  "CHM Automotive": [
+   {
+    "id": "1174693191075125",
+    "status": "Active",
+    "start": "2026-01-14",
+    "format": "Image",
+    "cta": "",
+    "modele": "Notoriété (import + showroom Oran)",
+    "prix": null,
+    "base": "",
+    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية 🚗",
+    "resume": "Pub d'image active depuis le 14/01/2026 : service d'import et de livraison de voitures chinoises, showroom à Oran, appels de 9h à 17h sauf vendredi. Annonceur « CHM Automotive - ORAN » (peut-être une page séparée).",
+    "url": "https://www.facebook.com/ads/library/?id=1174693191075125"
+   },
+   {
+    "id": "1136917735735215",
+    "status": "Active",
+    "start": "2026-10-28",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Déstockage (multi-modèles)",
+    "prix": null,
+    "base": "",
+    "accroche": "🚨 DESTOCKAGE عند CHM Automotive 🔥",
+    "resume": "Quantités limitées des modèles les plus demandés, prix « cassés », prêts à l'expédition.",
+    "url": "https://www.facebook.com/ads/library/?id=1136917735735215"
+   },
+   {
+    "id": "1458101755718991",
+    "status": "Active",
+    "start": "2026-10-29",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray manuelle",
+    "prix": 320,
+    "base": "Tous frais compris, -3 ans 2026",
+    "accroche": "🔥 العرض مازال مستمر 🔥 Geely Coolray manual",
+    "resume": "320 M tous frais, -3 ans. Paiement : 50 M à la réservation, 50 M à l'expédition, solde à l'arrivée au port.",
+    "url": "https://www.facebook.com/ads/library/?id=1458101755718991"
+   }
+  ],
+  "Nesrat Auto": [],
+  "China Car Go": [
+   {
+    "id": "829706716138632",
+    "status": "Active",
+    "start": "2025-11-02",
+    "format": "Image",
+    "cta": "",
+    "modele": "Notoriété (localisation)",
+    "prix": null,
+    "base": "",
+    "accroche": "China car go — Localisation",
+    "resume": "Pub de notoriété active depuis le 02/11/2025 : numéros de téléphone et lien Google Maps du showroom, sans prix ni modèle.",
+    "url": "https://www.facebook.com/ads/library/?id=829706716138632"
+   }
+  ]
+ },
+ "notes_collecte": {
+  "Raïs Cars": "Prix relevés dans les légendes des posts (≈130 posts sur 5 semaines).",
+  "CHM Automotive": "Prix relevés dans les légendes des posts (≈70 posts sur 5 semaines).",
+  "Nesrat Auto": "Prix relevés dans les légendes (≈60 posts sur 4 semaines). Affiche souvent 2 prix : tous frais et hors douane.",
+  "China Car Go": "Publie surtout des vidéos sans prix dans la légende : aucun prix exploitable relevé."
+ }
+}
