@@ -1,251 +1,251 @@
 {
  "maj": "2026-10-30",
- "par": "Grille CG Cars du 30/10/2026",
+ "par": "Saisie plateforme",
  "prix": [
   {
    "cle": "coolray_full",
    "modele": "Geely Coolray",
    "version": "GF, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 399.0
+   "prix": 399
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "GF, neuf",
    "base": "TTC neuf",
-   "prix": 449.0
+   "prix": 449
   },
   {
    "cle": "coolray_battle",
    "modele": "Geely Coolray",
    "version": "Battle, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 409.0
+   "prix": 409
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "Battle, neuf",
    "base": "TTC neuf",
-   "prix": 459.0
+   "prix": 459
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "Super Max, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 356.0
+   "prix": 356
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "Super Max, neuf",
    "base": "TTC neuf",
-   "prix": 399.0
+   "prix": 399
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "Super Max, showroom",
    "base": "Showroom",
-   "prix": 419.0
+   "prix": 419
   },
   {
    "cle": "coolray_mt",
    "modele": "Geely Coolray",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 325.0
+   "prix": 325
   },
   {
    "cle": "",
    "modele": "Geely Coolray",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 369.0
+   "prix": 369
   },
   {
    "cle": "livan_mt",
    "modele": "Livan",
    "version": "MT + toit, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299.0
+   "prix": 299
   },
   {
    "cle": "livan_mt_neuf",
    "modele": "Livan",
    "version": "MT + toit, neuf",
    "base": "TTC neuf",
-   "prix": 349.0
+   "prix": 349
   },
   {
    "cle": "",
    "modele": "Livan",
    "version": "CVT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309.0
+   "prix": 309
   },
   {
    "cle": "",
    "modele": "Livan",
    "version": "CVT, neuf",
    "base": "TTC neuf",
-   "prix": 359.0
+   "prix": 359
   },
   {
    "cle": "mg5",
    "modele": "MG5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 289.0
+   "prix": 289
   },
   {
    "cle": "",
    "modele": "MG5",
    "version": "GT, neuf",
    "base": "TTC neuf",
-   "prix": 355.0
+   "prix": 355
   },
   {
    "cle": "",
    "modele": "MG5",
    "version": "Luxury, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 339.0
+   "prix": 339
   },
   {
    "cle": "",
    "modele": "MG5",
    "version": "Luxury, neuf",
    "base": "TTC neuf",
-   "prix": 379.0
+   "prix": 379
   },
   {
    "cle": "roewe_i5",
    "modele": "Roewe i5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 279.0
+   "prix": 279
   },
   {
    "cle": "",
    "modele": "Roewe i5",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 309.0
+   "prix": 309
   },
   {
    "cle": "gac_gs3_entree",
    "modele": "GAC GS3",
    "version": "Enjoy Edition, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 369.0
+   "prix": 369
   },
   {
    "cle": "",
    "modele": "GAC GS3",
    "version": "Enjoy Edition, neuf",
    "base": "TTC neuf",
-   "prix": 415.0
+   "prix": 415
   },
   {
    "cle": "gac_gs3_smart",
    "modele": "GAC GS3",
    "version": "Smart Edition, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 399.0
+   "prix": 399
   },
   {
    "cle": "",
    "modele": "GAC GS3",
    "version": "Smart Edition, neuf",
    "base": "TTC neuf",
-   "prix": 445.0
+   "prix": 445
   },
   {
    "cle": "",
    "modele": "GAC GS3",
    "version": "R Style, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 419.0
+   "prix": 419
   },
   {
    "cle": "",
    "modele": "GAC GS3",
    "version": "R Style, neuf",
    "base": "TTC neuf",
-   "prix": 469.0
+   "prix": 469
   },
   {
    "cle": "",
    "modele": "Chery Arrizo 5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 317.0
+   "prix": 317
   },
   {
    "cle": "arrizo5_neuf",
    "modele": "Chery Arrizo 5",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 367.0
+   "prix": 367
   },
   {
    "cle": "",
    "modele": "Chery Arrizo 5",
    "version": "MT, showroom",
    "base": "Showroom",
-   "prix": 339.0
+   "prix": 339
   },
   {
    "cle": "",
    "modele": "Shineray",
    "version": "7 places, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299.0
+   "prix": 299
   },
   {
    "cle": "",
    "modele": "Shineray",
    "version": "7 places, neuf",
    "base": "TTC neuf",
-   "prix": 349.0
+   "prix": 349
   },
   {
    "cle": "",
    "modele": "Shineray",
    "version": "9 places, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309.0
+   "prix": 309
   },
   {
    "cle": "",
    "modele": "Shineray",
    "version": "9 places, neuf",
    "base": "TTC neuf",
-   "prix": 359.0
+   "prix": 359
   },
   {
    "cle": "",
    "modele": "SWM",
    "version": "-3 ans",
    "base": "TTC -3 ans",
-   "prix": 319.0
+   "prix": 319
   },
   {
    "cle": "",
    "modele": "SWM",
    "version": "neuf",
    "base": "TTC neuf",
-   "prix": 379.0
+   "prix": 379
   },
   {
    "cle": "",
    "modele": "SWM",
    "version": "showroom",
    "base": "Showroom",
-   "prix": 379.0
+   "prix": 379
   },
   {
    "cle": "",
@@ -259,42 +259,42 @@
    "modele": "Chery Tiggo 2",
    "version": "New",
    "base": "TTC (colonne -3 ans de la grille)",
-   "prix": 304.0
+   "prix": 304
   },
   {
    "cle": "",
    "modele": "Kaiyi X3",
    "version": "MT + toit",
    "base": "TTC -3 ans",
-   "prix": 329.0
+   "prix": 329
   },
   {
    "cle": "changan_x5plus",
    "modele": "Changan X5 Plus",
    "version": "Luxury MT",
    "base": "TTC -3 ans",
-   "prix": 319.0
+   "prix": 319
   },
   {
    "cle": "",
    "modele": "Changan X5 Plus",
    "version": "Pioneer Edition",
    "base": "TTC -3 ans",
-   "prix": 389.0
+   "prix": 389
   },
   {
    "cle": "",
    "modele": "Changan X5 Plus",
    "version": "Pro",
    "base": "TTC -3 ans",
-   "prix": 399.0
+   "prix": 399
   },
   {
    "cle": "",
    "modele": "Changan CS55 Plus",
    "version": "Luxury Edition",
    "base": "TTC -3 ans",
-   "prix": 459.0
+   "prix": 459
   }
  ],
  "historique": [
@@ -303,7 +303,7 @@
    "modele": "Geely Coolray",
    "version": "GF, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 399.0,
+   "prix": 399,
    "date": "2026-10-30"
   },
   {
@@ -311,7 +311,7 @@
    "modele": "Geely Coolray",
    "version": "GF, neuf",
    "base": "TTC neuf",
-   "prix": 449.0,
+   "prix": 449,
    "date": "2026-10-30"
   },
   {
@@ -319,7 +319,7 @@
    "modele": "Geely Coolray",
    "version": "Battle, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 409.0,
+   "prix": 409,
    "date": "2026-10-30"
   },
   {
@@ -327,7 +327,7 @@
    "modele": "Geely Coolray",
    "version": "Battle, neuf",
    "base": "TTC neuf",
-   "prix": 459.0,
+   "prix": 459,
    "date": "2026-10-30"
   },
   {
@@ -335,7 +335,7 @@
    "modele": "Geely Coolray",
    "version": "Super Max, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 356.0,
+   "prix": 356,
    "date": "2026-10-30"
   },
   {
@@ -343,7 +343,7 @@
    "modele": "Geely Coolray",
    "version": "Super Max, neuf",
    "base": "TTC neuf",
-   "prix": 399.0,
+   "prix": 399,
    "date": "2026-10-30"
   },
   {
@@ -351,7 +351,7 @@
    "modele": "Geely Coolray",
    "version": "Super Max, showroom",
    "base": "Showroom",
-   "prix": 419.0,
+   "prix": 419,
    "date": "2026-10-30"
   },
   {
@@ -359,7 +359,7 @@
    "modele": "Geely Coolray",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 325.0,
+   "prix": 325,
    "date": "2026-10-30"
   },
   {
@@ -367,7 +367,7 @@
    "modele": "Geely Coolray",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 369.0,
+   "prix": 369,
    "date": "2026-10-30"
   },
   {
@@ -375,7 +375,7 @@
    "modele": "Livan",
    "version": "MT + toit, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299.0,
+   "prix": 299,
    "date": "2026-10-30"
   },
   {
@@ -383,7 +383,7 @@
    "modele": "Livan",
    "version": "MT + toit, neuf",
    "base": "TTC neuf",
-   "prix": 349.0,
+   "prix": 349,
    "date": "2026-10-30"
   },
   {
@@ -391,7 +391,7 @@
    "modele": "Livan",
    "version": "CVT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309.0,
+   "prix": 309,
    "date": "2026-10-30"
   },
   {
@@ -399,7 +399,7 @@
    "modele": "Livan",
    "version": "CVT, neuf",
    "base": "TTC neuf",
-   "prix": 359.0,
+   "prix": 359,
    "date": "2026-10-30"
   },
   {
@@ -407,7 +407,7 @@
    "modele": "MG5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 289.0,
+   "prix": 289,
    "date": "2026-10-30"
   },
   {
@@ -415,7 +415,7 @@
    "modele": "MG5",
    "version": "GT, neuf",
    "base": "TTC neuf",
-   "prix": 355.0,
+   "prix": 355,
    "date": "2026-10-30"
   },
   {
@@ -423,7 +423,7 @@
    "modele": "MG5",
    "version": "Luxury, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 339.0,
+   "prix": 339,
    "date": "2026-10-30"
   },
   {
@@ -431,7 +431,7 @@
    "modele": "MG5",
    "version": "Luxury, neuf",
    "base": "TTC neuf",
-   "prix": 379.0,
+   "prix": 379,
    "date": "2026-10-30"
   },
   {
@@ -439,7 +439,7 @@
    "modele": "Roewe i5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 279.0,
+   "prix": 279,
    "date": "2026-10-30"
   },
   {
@@ -447,7 +447,7 @@
    "modele": "Roewe i5",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 309.0,
+   "prix": 309,
    "date": "2026-10-30"
   },
   {
@@ -455,7 +455,7 @@
    "modele": "GAC GS3",
    "version": "Enjoy Edition, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 369.0,
+   "prix": 369,
    "date": "2026-10-30"
   },
   {
@@ -463,7 +463,7 @@
    "modele": "GAC GS3",
    "version": "Enjoy Edition, neuf",
    "base": "TTC neuf",
-   "prix": 415.0,
+   "prix": 415,
    "date": "2026-10-30"
   },
   {
@@ -471,7 +471,7 @@
    "modele": "GAC GS3",
    "version": "Smart Edition, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 399.0,
+   "prix": 399,
    "date": "2026-10-30"
   },
   {
@@ -479,7 +479,7 @@
    "modele": "GAC GS3",
    "version": "Smart Edition, neuf",
    "base": "TTC neuf",
-   "prix": 445.0,
+   "prix": 445,
    "date": "2026-10-30"
   },
   {
@@ -487,7 +487,7 @@
    "modele": "GAC GS3",
    "version": "R Style, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 419.0,
+   "prix": 419,
    "date": "2026-10-30"
   },
   {
@@ -495,7 +495,7 @@
    "modele": "GAC GS3",
    "version": "R Style, neuf",
    "base": "TTC neuf",
-   "prix": 469.0,
+   "prix": 469,
    "date": "2026-10-30"
   },
   {
@@ -503,7 +503,7 @@
    "modele": "Chery Arrizo 5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 317.0,
+   "prix": 317,
    "date": "2026-10-30"
   },
   {
@@ -511,7 +511,7 @@
    "modele": "Chery Arrizo 5",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 367.0,
+   "prix": 367,
    "date": "2026-10-30"
   },
   {
@@ -519,7 +519,7 @@
    "modele": "Chery Arrizo 5",
    "version": "MT, showroom",
    "base": "Showroom",
-   "prix": 339.0,
+   "prix": 339,
    "date": "2026-10-30"
   },
   {
@@ -527,7 +527,7 @@
    "modele": "Shineray",
    "version": "7 places, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299.0,
+   "prix": 299,
    "date": "2026-10-30"
   },
   {
@@ -535,7 +535,7 @@
    "modele": "Shineray",
    "version": "7 places, neuf",
    "base": "TTC neuf",
-   "prix": 349.0,
+   "prix": 349,
    "date": "2026-10-30"
   },
   {
@@ -543,7 +543,7 @@
    "modele": "Shineray",
    "version": "9 places, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309.0,
+   "prix": 309,
    "date": "2026-10-30"
   },
   {
@@ -551,7 +551,7 @@
    "modele": "Shineray",
    "version": "9 places, neuf",
    "base": "TTC neuf",
-   "prix": 359.0,
+   "prix": 359,
    "date": "2026-10-30"
   },
   {
@@ -559,7 +559,7 @@
    "modele": "SWM",
    "version": "-3 ans",
    "base": "TTC -3 ans",
-   "prix": 319.0,
+   "prix": 319,
    "date": "2026-10-30"
   },
   {
@@ -567,7 +567,7 @@
    "modele": "SWM",
    "version": "neuf",
    "base": "TTC neuf",
-   "prix": 379.0,
+   "prix": 379,
    "date": "2026-10-30"
   },
   {
@@ -575,7 +575,7 @@
    "modele": "SWM",
    "version": "showroom",
    "base": "Showroom",
-   "prix": 379.0,
+   "prix": 379,
    "date": "2026-10-30"
   },
   {
@@ -591,7 +591,7 @@
    "modele": "Chery Tiggo 2",
    "version": "New",
    "base": "TTC (colonne -3 ans de la grille)",
-   "prix": 304.0,
+   "prix": 304,
    "date": "2026-10-30"
   },
   {
@@ -599,7 +599,7 @@
    "modele": "Kaiyi X3",
    "version": "MT + toit",
    "base": "TTC -3 ans",
-   "prix": 329.0,
+   "prix": 329,
    "date": "2026-10-30"
   },
   {
@@ -607,7 +607,7 @@
    "modele": "Changan X5 Plus",
    "version": "Luxury MT",
    "base": "TTC -3 ans",
-   "prix": 319.0,
+   "prix": 319,
    "date": "2026-10-30"
   },
   {
@@ -615,7 +615,7 @@
    "modele": "Changan X5 Plus",
    "version": "Pioneer Edition",
    "base": "TTC -3 ans",
-   "prix": 389.0,
+   "prix": 389,
    "date": "2026-10-30"
   },
   {
@@ -623,7 +623,7 @@
    "modele": "Changan X5 Plus",
    "version": "Pro",
    "base": "TTC -3 ans",
-   "prix": 399.0,
+   "prix": 399,
    "date": "2026-10-30"
   },
   {
@@ -631,7 +631,7 @@
    "modele": "Changan CS55 Plus",
    "version": "Luxury Edition",
    "base": "TTC -3 ans",
-   "prix": 459.0,
+   "prix": 459,
    "date": "2026-10-30"
   }
  ]
