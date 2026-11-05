@@ -53,6 +53,7 @@
         <div class="toolbar">
           <h2>Comparatif par modèle</h2>
           <label class="check"><input type="checkbox" id="onlyTF" checked> Prix « tous frais compris / TTC » uniquement</label>
+          <button id="xlsComp" class="btn ghost">⬇ Exporter Excel</button>
         </div>
         <p class="hint">Dernier prix connu de chaque acteur, en millions de centimes. Le prix le plus bas de chaque ligne est en vert. Écart = prix CG − prix concurrent (négatif = CG moins cher). Survole un prix pour voir sa base et sa date.</p>
         <div class="tablewrap"><table id="compTable" class="data"></table></div>
@@ -80,7 +81,7 @@
           <select id="fActeur"><option value="">Tous les acteurs</option></select>
           <select id="fModele"><option value="">Tous les modèles</option></select>
           <input id="fSearch" type="search" placeholder="Rechercher (modèle, version, base…)">
-          <button id="csvBtn" class="btn ghost">Exporter CSV</button>
+          <button id="csvBtn" class="btn ghost">⬇ Exporter Excel</button>
         </div>
         <p class="hint" id="histCount"></p>
         <div class="tablewrap"><table id="histTable" class="data"></table></div>
@@ -94,6 +95,7 @@
           <h2>Publicités des concurrents</h2>
           <select id="fAdActeur"><option value="">Tous les concurrents</option></select>
           <select id="fAdStatus"><option value="">Tous statuts</option><option value="Active">Actives</option><option value="Inactive">Inactives</option></select>
+          <button id="xlsAds" class="btn ghost">⬇ Exporter Excel</button>
         </div>
         <p class="hint">Source : Meta Ad Library (Algérie). Chaque carte renvoie vers la publicité dans la bibliothèque.</p>
         <div id="adsGrid" class="adsGrid"></div>
@@ -115,6 +117,7 @@
         <div class="tablewrap"><table id="adminTable" class="data edit"></table></div>
         <div class="actions">
           <button id="addRow" class="btn ghost">+ Ajouter une ligne</button>
+          <button id="xlsCg" class="btn ghost">⬇ Exporter Excel</button>
           <button id="exportCg" class="btn ghost">Télécharger le JSON</button>
           <button id="saveCg" class="btn">Enregistrer</button>
           <span id="saveMsg" class="msg"></span>

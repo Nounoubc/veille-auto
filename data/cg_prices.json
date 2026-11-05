@@ -136,7 +136,7 @@
    "prix": 309
   },
   {
-   "cle": "gac_gs3_entree",
+   "cle": "gac_gs3_enjoy",
    "modele": "GAC GS3",
    "version": "Enjoy Edition, -3 ans",
    "base": "TTC -3 ans",
@@ -451,7 +451,7 @@
    "date": "2026-10-30"
   },
   {
-   "cle": "gac_gs3_entree",
+   "cle": "gac_gs3_enjoy",
    "modele": "GAC GS3",
    "version": "Enjoy Edition, -3 ans",
    "base": "TTC -3 ans",

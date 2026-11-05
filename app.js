@@ -22,7 +22,16 @@
   const color = (a) => (S.bench.acteurs.find((x) => x.nom === a) || {}).couleur || "#64748b";
   const CG = "CG Cars";
   const competitors = () => S.bench.acteurs.filter((a) => a.nom !== CG).map((a) => a.nom);
-  const label = (cle) => (S.bench.modeles.find((m) => m.cle === cle) || {}).libelle || cle;
+  const mod = (cle) => S.bench.modeles.find((m) => m.cle === cle) || {};
+  const label = (cle) => mod(cle).libelle || cle;
+  const etatM = (cle) => mod(cle).etat || "";
+  const fullLabel = (cle) => label(cle) + (etatM(cle) ? " — " + etatM(cle) : "");
+  const etatOf = (o) => {
+    const t = (o.version || "") + " " + (o.base || "");
+    if (/-\s?3\s?ans|3ans|0 ?km|moins de 3/i.test(t)) return "-3 ans";
+    if (/neuf|\bnew\b|sans tvn/i.test(t)) return "Neuf";
+    return o.cle ? etatM(o.cle) : "";
+  };
 
   // ---------- Chargement ----------
   async function getJSON(name) {
@@ -40,7 +49,9 @@
       return;
     }
     buildObs();
-    $("#maj").textContent = "Dernière mise à jour : " + new Date(S.bench.maj).toLocaleString("fr-FR") + " · " + S.bench.unite;
+    let j = null; try { j = await getJSON("journal.json"); } catch (e) {}
+    $("#maj").textContent = "Données mises à jour le " + new Date(S.bench.maj).toLocaleString("fr-FR") +
+      (j && j.derniere_execution ? " · Dernier passage de l'agent : " + new Date(j.derniere_execution).toLocaleString("fr-FR") + " (" + (j.statut || "") + ")" : "") + " · " + S.bench.unite;
     renderAll();
   }
   function buildObs() {
@@ -108,7 +119,7 @@
     if (!list.length) al.append(el("p", { class: "empty" }, "CG Cars n'est le plus cher sur aucun modèle comparé."));
     const lw = el("div", { class: "list" });
     for (const x of list) lw.append(el("div", { class: "row" },
-      el("span", {}, el("strong", {}, label(x.r.m.cle)), el("br"), el("span", { class: "muted" }, `CG ${fmt(x.r.cells[CG].prix)} M · ${x.cheapest.acteur} ${fmt(x.cheapest.prix)} M (${fdate(x.cheapest.date)})`)),
+      el("span", {}, el("strong", {}, label(x.r.m.cle) + " (" + etatM(x.r.m.cle) + ")"), el("br"), el("span", { class: "muted" }, `CG ${fmt(x.r.cells[CG].prix)} M · ${x.cheapest.acteur} ${fmt(x.cheapest.prix)} M (${fdate(x.cheapest.date)})`)),
       el("span", { class: "pos" }, "+" + fmt(x.gap) + " M")));
     al.append(lw);
     // mouvements
@@ -139,11 +150,11 @@
     const onlyTF = $("#onlyTF").checked;
     const t = $("#compTable"); t.replaceChildren();
     const acts = S.bench.acteurs.map((a) => a.nom);
-    t.append(el("thead", {}, el("tr", {}, el("th", {}, "Modèle"), acts.map((a) => el("th", { class: "num" }, el("span", { class: "dot", style: "background:" + color(a) }), a)),
+    t.append(el("thead", {}, el("tr", {}, el("th", {}, "Modèle"), el("th", {}, "État"), acts.map((a) => el("th", { class: "num" }, el("span", { class: "dot", style: "background:" + color(a) }), a)),
       competitors().map((a) => el("th", { class: "num" }, "Écart vs " + a)), el("th", {}, "Position CG"))));
     const tb = el("tbody");
     for (const r of compRows(onlyTF)) {
-      const tr = el("tr", {}, el("td", {}, el("strong", {}, label(r.m.cle))));
+      const tr = el("tr", {}, el("td", {}, el("strong", {}, label(r.m.cle))), el("td", {}, el("span", { class: "pill " + (etatM(r.m.cle) === "Neuf" ? "neuf" : "occ") }, etatM(r.m.cle) || "—")));
       for (const a of acts) {
         const c = r.cells[a];
         if (!c) { tr.append(el("td", { class: "num muted" }, "—")); continue; }
@@ -226,7 +237,7 @@
   }
   function fillSelects() {
     const s = $("#chartModel"); s.replaceChildren();
-    for (const m of S.bench.modeles) if (S.obs.some((o) => o.cle === m.cle)) s.append(el("option", { value: m.cle }, m.libelle));
+    for (const m of S.bench.modeles) if (S.obs.some((o) => o.cle === m.cle)) s.append(el("option", { value: m.cle }, fullLabel(m.cle)));
     const fa = $("#fActeur"), fm = $("#fModele"), fad = $("#fAdActeur");
     [fa, fm, fad].forEach((x) => { while (x.options.length > 1) x.remove(1); });
     for (const a of S.bench.acteurs) fa.append(el("option", { value: a.nom }, a.nom));
@@ -240,7 +251,7 @@
     for (const m of S.bench.modeles) {
       const d = series(m.cle, onlyTF); if (Object.keys(d).length < 2) continue;
       const box = el("div", { class: "chart" });
-      sc.append(el("div", { class: "card" }, el("h2", {}, m.libelle), box));
+      sc.append(el("div", { class: "card" }, el("h2", {}, fullLabel(m.cle)), box));
       requestAnimationFrame(() => drawChart(box, m.cle, onlyTF, true));
     }
   }
@@ -256,20 +267,87 @@
     const rows = histFiltered();
     $("#histCount").textContent = rows.length + " prix relevés";
     const t = $("#histTable"); t.replaceChildren();
-    t.append(el("thead", {}, el("tr", {}, ["Date", "Acteur", "Modèle", "Version / état", "Prix (M)", "Prix (DA)", "Base", "Notes"].map((h, i) => el("th", { class: i === 4 || i === 5 ? "num" : "" }, h)))));
+    t.append(el("thead", {}, el("tr", {}, ["Date", "Acteur", "Modèle", "État", "Version", "Prix (M)", "Prix (DA)", "Base", "Notes"].map((h, i) => el("th", { class: i === 5 || i === 6 ? "num" : "" }, h)))));
     const tb = el("tbody");
     for (const o of rows.slice(0, 1500)) tb.append(el("tr", {},
       el("td", {}, fdate(o.date)), el("td", {}, el("span", { class: "dot", style: "background:" + color(o.acteur) }), o.acteur),
-      el("td", {}, o.modele), el("td", {}, o.version || ""), el("td", { class: "num" }, el("strong", {}, fmt(o.prix))),
+      el("td", {}, o.modele), el("td", {}, etatOf(o) || "—"), el("td", {}, o.version || ""), el("td", { class: "num" }, el("strong", {}, fmt(o.prix))),
       el("td", { class: "num muted" }, fmt(o.prix * 10000)), el("td", {}, o.base || ""), el("td", { class: "muted" }, o.notes || "")));
     t.append(tb);
   }
-  function exportCSV() {
+  function exportHist() {
     const rows = histFiltered();
-    const esc = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"';
-    const csv = ["Date;Acteur;Modèle;Version;Prix (M);Prix (DA);Base;Notes"]
-      .concat(rows.map((o) => [o.date, o.acteur, o.modele, o.version, o.prix, o.prix * 10000, o.base, o.notes].map(esc).join(";"))).join("\n");
-    download("historique_benchmark.csv", "﻿" + csv, "text/csv");
+    exportXlsx("historique_prix.xlsx", "Historique", ["Date", "Acteur", "Modèle", "État", "Version", "Prix (M)", "Prix (DA)", "Base", "Notes"],
+      rows.map((o) => [fdate(o.date), o.acteur, o.modele, etatOf(o), o.version || "", o.prix, o.prix * 10000, o.base || "", o.notes || ""]));
+  }
+  function exportComp() {
+    const onlyTF = $("#onlyTF").checked, acts = S.bench.acteurs.map((a) => a.nom);
+    const head = ["Modèle", "État", ...acts.flatMap((a) => [a + " (M)", a + " base", a + " date"]), ...competitors().map((a) => "Écart vs " + a), "Position CG"];
+    const rows = compRows(onlyTF).map((r) => [label(r.m.cle), etatM(r.m.cle),
+      ...acts.flatMap((a) => { const c = r.cells[a]; return c ? [c.prix, c.base || "", fdate(c.date)] : ["", "", ""]; }),
+      ...competitors().map((a) => (r.cells[CG] && r.cells[a]) ? r.cells[CG].prix - r.cells[a].prix : ""),
+      (position(r) || [""])[0]]);
+    exportXlsx("comparatif_prix.xlsx", "Comparatif", head, rows);
+  }
+  function exportAds() {
+    const rows = [];
+    for (const a of competitors()) for (const ad of ((S.bench.publicites || {})[a] || []))
+      rows.push([a, ad.status, fdate(ad.start), ad.end ? fdate(ad.end) : "", ad.format || "", ad.cta || "", ad.modele || "", ad.prix || "", ad.base || "", ad.accroche || "", ad.resume || "", ad.url || ""]);
+    exportXlsx("publicites_concurrents.xlsx", "Publicités", ["Concurrent", "Statut", "Début", "Fin", "Format", "Bouton", "Modèle", "Prix (M)", "Base", "Accroche", "Résumé", "Lien Ad Library"], rows);
+  }
+  function exportCgGrid() {
+    exportXlsx("prix_cg_cars.xlsx", "Prix CG Cars", ["Modèle", "Version", "Base", "Prix (M)", "Prix (DA)", "Modèle comparé"],
+      (S.cg.prix || []).map((p) => [p.modele, p.version || "", p.base || "", p.prix, p.prix * 10000, p.cle ? fullLabel(p.cle) : ""]));
+  }
+
+  // ---------- Écriture XLSX (sans dépendance) ----------
+  const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+  const crc32 = (u8) => { let c = 0xFFFFFFFF; for (let i = 0; i < u8.length; i++) c = CRC[(c ^ u8[i]) & 0xFF] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+  function zip(files) {
+    const enc = new TextEncoder(), parts = [], central = []; let off = 0;
+    for (const [name, text] of files) {
+      const n = enc.encode(name), d = enc.encode(text), crc = crc32(d);
+      const h = new DataView(new ArrayBuffer(30));
+      h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(8, 0, true);
+      h.setUint16(10, 0, true); h.setUint16(12, 0x21, true); h.setUint32(14, crc, true); h.setUint32(18, d.length, true); h.setUint32(22, d.length, true);
+      h.setUint16(26, n.length, true); h.setUint16(28, 0, true);
+      parts.push(new Uint8Array(h.buffer), n, d);
+      const c = new DataView(new ArrayBuffer(46));
+      c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true); c.setUint16(10, 0, true);
+      c.setUint16(12, 0, true); c.setUint16(14, 0x21, true); c.setUint32(16, crc, true); c.setUint32(20, d.length, true); c.setUint32(24, d.length, true);
+      c.setUint16(28, n.length, true); c.setUint32(42, off, true);
+      central.push(new Uint8Array(c.buffer), n);
+      off += 30 + n.length + d.length;
+    }
+    const cs = central.reduce((s, x) => s + x.length, 0);
+    const e = new DataView(new ArrayBuffer(22));
+    e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, cs, true); e.setUint32(16, off, true);
+    return new Blob([...parts, ...central, new Uint8Array(e.buffer)], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+  }
+  function exportXlsx(filename, sheet, head, rows) {
+    const x = (v) => String(v).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "");
+    const col = (i) => { let s = ""; i++; while (i) { const m = (i - 1) % 26; s = String.fromCharCode(65 + m) + s; i = Math.floor((i - 1) / 26); } return s; };
+    const cell = (v, r, c, st) => {
+      const ref = col(c) + r;
+      if (typeof v === "number" && isFinite(v)) return `<c r="${ref}"${st ? ' s="2"' : ""}><v>${v}</v></c>`;
+      if (v === "" || v === null || v === undefined) return "";
+      return `<c r="${ref}" t="inlineStr"${st === 1 ? ' s="1"' : ""}><is><t xml:space="preserve">${x(v)}</t></is></c>`;
+    };
+    const all = [head, ...rows];
+    const widths = head.map((_, c) => Math.min(60, Math.max(10, ...all.map((r) => String(r[c] ?? "").length + 2))));
+    const sheetXml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>${widths.map((w, i) => `<col min="${i + 1}" max="${i + 1}" width="${w}" customWidth="1"/>`).join("")}</cols><sheetData>` +
+      all.map((r, i) => `<row r="${i + 1}">${r.map((v, c) => cell(v, i + 1, c, i === 0 ? 1 : 2)).join("")}</row>`).join("") +
+      `</sheetData><autoFilter ref="A1:${col(head.length - 1)}${all.length}"/></worksheet>`;
+    const files = [
+      ["[Content_Types].xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>'],
+      ["_rels/.rels", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>'],
+      ["xl/workbook.xml", `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="${x(sheet).slice(0, 31)}" sheetId="1" r:id="rId1"/></sheets><definedNames><definedName name="_xlnm._FilterDatabase" localSheetId="0" hidden="1">'${x(sheet).slice(0, 31)}'!$A$1:$${col(head.length - 1)}$${all.length}</definedName></definedNames></workbook>`],
+      ["xl/_rels/workbook.xml.rels", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>'],
+      ["xl/styles.xml", '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="10"/><name val="Arial"/></font><font><b/><sz val="10"/><color rgb="FFFFFFFF"/><name val="Arial"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF0F3D2E"/></patternFill></fill></fills><borders count="1"><border/></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>'],
+      ["xl/worksheets/sheet1.xml", sheetXml],
+    ];
+    const a = el("a", { href: URL.createObjectURL(zip(files)), download: filename });
+    document.body.append(a); a.click(); a.remove();
   }
   function download(name, text, type) {
     const a = el("a", { href: URL.createObjectURL(new Blob([text], { type })), download: name });
@@ -372,7 +450,10 @@
     $("#chartTF").addEventListener("change", renderCharts);
     ["#fActeur", "#fModele"].forEach((s) => $(s).addEventListener("change", renderHistorique));
     $("#fSearch").addEventListener("input", renderHistorique);
-    $("#csvBtn").addEventListener("click", exportCSV);
+    $("#csvBtn").addEventListener("click", exportHist);
+    $("#xlsComp").addEventListener("click", exportComp);
+    $("#xlsAds").addEventListener("click", exportAds);
+    $("#xlsCg").addEventListener("click", exportCgGrid);
     ["#fAdActeur", "#fAdStatus"].forEach((s) => $(s).addEventListener("change", renderAds));
     $("#addRow").addEventListener("click", () => { draft.push({ modele: "", version: "", base: "TTC -3 ans", prix: NaN, cle: "" }); drawAdmin(); });
     $("#exportCg").addEventListener("click", () => download("cg_prices.json", JSON.stringify({ ...S.cg, prix: draft }, null, 1), "application/json"));

@@ -16,7 +16,18 @@ BENCH = ROOT / "data" / "benchmark.json"
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--obs"); ap.add_argument("--ads")
+    ap.add_argument("--statut", default="ok", help="ok, partiel ou échec")
+    ap.add_argument("--details", default="")
+    ap.add_argument("--journal-seul", action="store_true", help="n'écrit que le journal (échec de collecte)")
     a = ap.parse_args()
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    JOURNAL = ROOT / "data" / "journal.json"
+    j = json.loads(JOURNAL.read_text(encoding="utf-8")) if JOURNAL.exists() else {"executions": []}
+    if a.journal_seul:
+        j.update(derniere_execution=now, statut=a.statut, details=a.details)
+        j["executions"] = ([{"date": now, "statut": a.statut, "details": a.details, "nouveaux_prix": 0}] + j["executions"])[:60]
+        JOURNAL.write_text(json.dumps(j, ensure_ascii=False, indent=1), encoding="utf-8")
+        print("journal écrit :", a.statut); return
     b = json.loads(BENCH.read_text(encoding="utf-8"))
     before = len(b["observations"])
     if a.obs:
@@ -39,9 +50,13 @@ def main():
                 if i not in ids and x.get("status") == "Active":
                     x["status"] = "Inactive"; x.setdefault("end", dt.date.today().isoformat())
             b["publicites"][acteur] = sorted(old.values(), key=lambda x: x.get("start", ""), reverse=True)
-    b["maj"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    b["maj"] = now
     assert len(b["observations"]) >= before, "l'historique a diminué : arrêt"
     BENCH.write_text(json.dumps(b, ensure_ascii=False, indent=1), encoding="utf-8")
+    added = len(b["observations"]) - before
+    j.update(derniere_execution=now, statut=a.statut, details=a.details)
+    j["executions"] = ([{"date": now, "statut": a.statut, "details": a.details, "nouveaux_prix": added}] + j["executions"])[:60]
+    JOURNAL.write_text(json.dumps(j, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"ok : {before} → {len(b['observations'])} prix ; pubs : " + ", ".join(f"{k} {len(v)}" for k, v in b["publicites"].items()))
 
 if __name__ == "__main__":

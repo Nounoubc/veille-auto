@@ -1,0 +1,13 @@
+{
+ "executions": [
+  {
+   "date": "2026-11-05T14:42:51Z",
+   "statut": "ok",
+   "details": "Rattrapage manuel du 05/11 : posts du 30/10 au 05/11 et pubs actives des 4 concurrents.",
+   "nouveaux_prix": 25
+  }
+ ],
+ "derniere_execution": "2026-11-05T14:42:51Z",
+ "statut": "ok",
+ "details": "Rattrapage manuel du 05/11 : posts du 30/10 au 05/11 et pubs actives des 4 concurrents."
+}
