@@ -34,12 +34,22 @@
   };
 
   // ---------- Chargement ----------
+  let FRESH = false; // true après « Actualiser » : lecture directe dans GitHub (sans cache)
   async function getJSON(name) {
+    if (FRESH && CFG.GITHUB_OWNER) {
+      try {
+        const h = { Accept: "application/vnd.github.raw" };
+        const tk = savedToken(); if (tk) h.Authorization = "Bearer " + tk;
+        const r = await fetch(`https://api.github.com/repos/${CFG.GITHUB_OWNER}/${CFG.GITHUB_REPO}/contents/data/${name}?ref=${CFG.GITHUB_BRANCH}&t=${Date.now()}`, { headers: h, cache: "no-store" });
+        if (r.ok) return r.json();
+      } catch (e) {}
+    }
     const url = (CFG.DATA_URL || "./data/") + name + "?t=" + Date.now();
     const r = await fetch(url, { cache: "no-store" });
     if (!r.ok) throw new Error(name + " : " + r.status);
     return r.json();
   }
+  function savedToken() { try { return ($("#token") && $("#token").value.trim()) || localStorage.getItem("bench_token") || ""; } catch (e) { return ""; } }
   async function load() {
     try {
       const [b, c] = await Promise.all([getJSON("benchmark.json"), getJSON("cg_prices.json")]);
@@ -49,9 +59,13 @@
       return;
     }
     buildObs();
-    let j = null; try { j = await getJSON("journal.json"); } catch (e) {}
+    let j = null, d = null;
+    try { j = await getJSON("journal.json"); } catch (e) {}
+    try { d = await getJSON("demande.json"); } catch (e) {}
+    S.demande = d;
     $("#maj").textContent = "Données mises à jour le " + new Date(S.bench.maj).toLocaleString("fr-FR") +
-      (j && j.derniere_execution ? " · Dernier passage de l'agent : " + new Date(j.derniere_execution).toLocaleString("fr-FR") + " (" + (j.statut || "") + ")" : "") + " · " + S.bench.unite;
+      (j && j.derniere_execution ? " · Dernier passage de l'agent : " + new Date(j.derniere_execution).toLocaleString("fr-FR") + " (" + (j.statut || "") + ")" : "") +
+      (d && d.statut === "en attente" ? " · Collecte demandée le " + new Date(d.demande_le).toLocaleString("fr-FR") + " (en attente)" : "") + " · " + S.bench.unite;
     renderAll();
   }
   function buildObs() {
@@ -437,6 +451,34 @@
     }
   }
 
+  // ---------- Bouton Actualiser ----------
+  function toast(msg, kind) {
+    const t = $("#toast"); t.textContent = msg; t.className = "toast " + (kind || ""); t.hidden = false;
+    clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 9000);
+  }
+  async function refresh() {
+    const btn = $("#refreshBtn"); btn.disabled = true; btn.textContent = "⟳ Actualisation…";
+    FRESH = true;
+    try { await load(); } finally { btn.disabled = false; btn.textContent = "⟳ Actualiser"; }
+    const token = savedToken();
+    if (!token) { toast("Données rechargées. Pour lancer une nouvelle collecte chez les concurrents, enregistre d'abord ton jeton GitHub dans l'onglet « Nos prix » (case « Mémoriser »).", "warn"); return; }
+    if (S.demande && S.demande.statut === "en attente") { toast("Données rechargées. Une collecte est déjà demandée : l'agent passe dans l'heure (de 8h à 20h).", "ok"); return; }
+    const path = "data/demande.json";
+    const api = `https://api.github.com/repos/${CFG.GITHUB_OWNER}/${CFG.GITHUB_REPO}/contents/${path}`;
+    const H = { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" };
+    try {
+      const cur = await fetch(api + "?ref=" + CFG.GITHUB_BRANCH, { headers: H });
+      const sha = cur.ok ? (await cur.json()).sha : undefined;
+      const body = { statut: "en attente", demande_le: new Date().toISOString(), par: "Bouton Actualiser" };
+      const r = await fetch(api, { method: "PUT", headers: H, body: JSON.stringify({ message: "Demande de collecte depuis la plateforme", branch: CFG.GITHUB_BRANCH, content: b64(JSON.stringify(body, null, 1)), sha }) });
+      if (!r.ok) throw new Error((await r.json()).message || r.status);
+      S.demande = body;
+      toast("Collecte demandée ✔ L'agent relève les nouveaux prix et pubs à son prochain passage (toutes les heures de 8h à 20h). Reclique sur « Actualiser » ensuite pour voir le résultat.", "ok");
+    } catch (e) {
+      toast("Données rechargées, mais la demande de collecte a échoué : " + e.message, "err");
+    }
+  }
+
   // ---------- Événements ----------
   document.addEventListener("DOMContentLoaded", () => {
     $("#tabs").addEventListener("click", (e) => {
@@ -458,6 +500,7 @@
     $("#addRow").addEventListener("click", () => { draft.push({ modele: "", version: "", base: "TTC -3 ans", prix: NaN, cle: "" }); drawAdmin(); });
     $("#exportCg").addEventListener("click", () => download("cg_prices.json", JSON.stringify({ ...S.cg, prix: draft }, null, 1), "application/json"));
     $("#saveCg").addEventListener("click", saveCg);
+    $("#refreshBtn").addEventListener("click", refresh);
     window.addEventListener("resize", () => { if (S.bench && $("#view-graphiques").classList.contains("active")) renderCharts(); });
     const tip = $("#tooltip");
     document.addEventListener("mouseover", (e) => { const t = e.target.closest("[data-tip]"); if (!t) return; tip.textContent = t.dataset.tip; tip.style.whiteSpace = "pre-line"; tip.hidden = false; });

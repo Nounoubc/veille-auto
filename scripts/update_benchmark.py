@@ -57,6 +57,12 @@ def main():
     j.update(derniere_execution=now, statut=a.statut, details=a.details)
     j["executions"] = ([{"date": now, "statut": a.statut, "details": a.details, "nouveaux_prix": added}] + j["executions"])[:60]
     JOURNAL.write_text(json.dumps(j, ensure_ascii=False, indent=1), encoding="utf-8")
+    DEM = ROOT / "data" / "demande.json"
+    if DEM.exists():
+        d = json.loads(DEM.read_text(encoding="utf-8"))
+        if d.get("statut") == "en attente":
+            d.update(statut="traitée", traitee_le=now, resultat=f"{added} nouveaux prix")
+            DEM.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"ok : {before} → {len(b['observations'])} prix ; pubs : " + ", ".join(f"{k} {len(v)}" for k, v in b["publicites"].items()))
 
 if __name__ == "__main__":
