@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-05T14:42:51Z",
+ "maj": "2026-11-06T10:45:12Z",
  "unite": "Millions de centimes (M). 1 M = 10 000 DA.",
  "acteurs": [
   {
@@ -119,6 +119,50 @@
  "observations": [
   {
    "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3 Medium",
+   "version": "-3 ans",
+   "prix": 368.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus Beyond",
+   "version": "-3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Version Beyond (auto) d'après la pub du même prix",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Manuelle, -3 ans",
+   "prix": 336.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs3_smart",
+   "modele": "GAC GS3 Smart",
+   "version": "-3 ans",
+   "prix": 409.0,
+   "base": "Tous frais compris",
+   "notes": "Post « coolray vs gac gs3 » ; version Smart d'après la pub à 409 M",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
    "acteur": "Nesrat Auto",
    "cle": "changan_x5plus",
    "modele": "Changan X5 Plus",
@@ -130,6 +174,50 @@
   },
   {
    "date": "2026-11-05",
+   "acteur": "Nesrat Auto",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Manuelle",
+   "prix": 325.0,
+   "base": "Tous frais compris",
+   "notes": "Prix après remise",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetour X70L 7 places",
+   "version": "",
+   "prix": 720.0,
+   "base": "Carte grise",
+   "notes": "Date estimée (post non daté)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos Luxury",
+   "version": "",
+   "prix": 395.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date estimée (post non daté)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos Full Option",
+   "version": "",
+   "prix": 420.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date estimée (post non daté)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
    "acteur": "CHM Automotive",
    "cle": "",
    "modele": "MG5",
@@ -137,6 +225,28 @@
    "prix": 320.0,
    "base": "Carte grise, showroom",
    "notes": "Baisse vs 339 M (MG5 mexicaine, 06/10)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "CHM Automotive",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "Déstockage, blanc et gris",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG5 International",
+   "version": "Manuelle 1.5, -3 ans",
+   "prix": 320.0,
+   "base": "Carte grise",
+   "notes": "Showroom Chéraga ; date estimée (post non daté)",
    "source": "Post Facebook"
   },
   {
@@ -170,6 +280,17 @@
    "prix": 385.0,
    "base": "Tous frais compris",
    "notes": "Quantités limitées",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-04",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 318.0,
+   "base": "Tous frais compris",
+   "notes": "",
    "source": "Post Facebook"
   },
   {
@@ -225,6 +346,28 @@
    "prix": 250.0,
    "base": "Port d'Alger (hors douane)",
    "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-04",
+   "acteur": "Nesrat Auto",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "Blanc",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-04",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 250.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Blanc",
    "source": "Post Facebook"
   },
   {
@@ -334,6 +477,61 @@
    "version": "Excellent Pro",
    "prix": 325.0,
    "base": "Hors douane",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-03",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3 Full R-Style",
+   "version": "",
+   "prix": 360.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-03",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3 Full Option",
+   "version": "",
+   "prix": 340.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-03",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3 Medium",
+   "version": "",
+   "prix": 298.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-03",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS3 Basic",
+   "version": "",
+   "prix": 269.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-03",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "GAC GS4 Max",
+   "version": "",
+   "prix": 360.0,
+   "base": "Port d'Alger (hors douane)",
    "notes": "",
    "source": "Post Facebook"
   },
@@ -1628,6 +1826,286 @@
  "publicites": {
   "Raïs Cars": [
    {
+    "id": "978576001478890",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Vidéo 1:23",
+    "cta": "Voir le profil Instagram",
+    "modele": "Multi-modèles",
+    "prix": null,
+    "base": "",
+    "accroche": "🔥 أسعار هذا الأسبوع في RAIS CARS! 🚗",
+    "resume": "Vidéo des prix de la semaine (-3 ans), renvoie vers Instagram.",
+    "url": "https://www.facebook.com/ads/library/?id=978576001478890"
+   },
+   {
+    "id": "838838979322666",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Vidéo 1:32",
+    "cta": "Appeler",
+    "modele": "Service après-vente",
+    "prix": null,
+    "base": "",
+    "accroche": "🔧🚗 في RAIS CARS، علاقتنا معاك ما تنتهيش عند تسليم السيارة!",
+    "resume": "Mise en avant du service après-vente et de l'entretien.",
+    "url": "https://www.facebook.com/ads/library/?id=838838979322666"
+   },
+   {
+    "id": "2298725760982776",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Vidéo 0:28",
+    "cta": "Appeler",
+    "modele": "Dépôt-vente",
+    "prix": null,
+    "base": "",
+    "accroche": "🚗 عندك سيارة حاب تبيعها؟ خلي الباقي علينا! 🔥",
+    "resume": "Nouveau service : vente de la voiture du client en dépôt-vente.",
+    "url": "https://www.facebook.com/ads/library/?id=2298725760982776"
+   },
+   {
+    "id": "2699789570531041",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Vidéo 0:57",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Smart",
+    "prix": 409,
+    "base": "Non précisé",
+    "accroche": "🔥 GAC GS3 SMART – الأناقة والتكنولوجيا في سيارة واحدة! 🔥",
+    "resume": "GAC GS3 Smart -3 ans à 409 M.",
+    "url": "https://www.facebook.com/ads/library/?id=2699789570531041"
+   },
+   {
+    "id": "4258915301072405",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Vidéo 0:58",
+    "cta": "Appeler",
+    "modele": "MG5 Mexicaine",
+    "prix": 290,
+    "base": "Non précisé",
+    "accroche": "🔥 MG5 MEXICAINE – بسعر مميز! 🔥",
+    "resume": "MG5 version mexicaine à 290 M.",
+    "url": "https://www.facebook.com/ads/library/?id=4258915301072405"
+   },
+   {
+    "id": "1444207051012419",
+    "status": "Active",
+    "start": "2026-11-01",
+    "end": "",
+    "format": "Vidéo 0:37",
+    "cta": "Appeler",
+    "modele": "Geely Coolray manuelle",
+    "prix": 318,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗 Geely Coolray Manuel – أقل من 3 سنوات بسعر 318 مليون سنتيم",
+    "resume": "Coolray manuelle -3 ans à 318 M tous frais compris.",
+    "url": "https://www.facebook.com/ads/library/?id=1444207051012419"
+   },
+   {
+    "id": "2343791676396127",
+    "status": "Active",
+    "start": "2026-11-01",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray manuelle",
+    "prix": 318,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗 Geely Coolray Manuel – أقل من 3 سنوات بسعر 318 مليون سنتيم TTC!",
+    "resume": "Coolray manuelle -3 ans à 318 M TTC (image).",
+    "url": "https://www.facebook.com/ads/library/?id=2343791676396127"
+   },
+   {
+    "id": "2180917936185267",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Audi Q3",
+    "prix": 645,
+    "base": "Hors douane (douane 145-160 M en plus)",
+    "accroche": "🚗 Audi Q3  بسعر 645 مليون سنتيم! 🔥",
+    "resume": "Audi Q3 à 645 M, dédouanement de 145 à 160 M en sus.",
+    "url": "https://www.facebook.com/ads/library/?id=2180917936185267"
+   },
+   {
+    "id": "2299468860893953",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 1:09",
+    "cta": "Appeler",
+    "modele": "Audi Q3",
+    "prix": 645,
+    "base": "Hors douane (douane 145-160 M en plus)",
+    "accroche": "🚗 Audi Q3  بسعر 645 مليون سنتيم! 🔥",
+    "resume": "Version vidéo de l'offre Audi Q3 à 645 M hors douane.",
+    "url": "https://www.facebook.com/ads/library/?id=2299468860893953"
+   },
+   {
+    "id": "954126517420032",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 0:42",
+    "cta": "Appeler",
+    "modele": "Livan X3 Pro manuelle",
+    "prix": 290,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 LIVAN X3 PRO MANUELLE – بسعر 290 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Livan X3 Pro manuelle -3 ans à 290 M tous frais compris.",
+    "url": "https://www.facebook.com/ads/library/?id=954126517420032"
+   },
+   {
+    "id": "2040035973361119",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Livan X3 Pro manuelle",
+    "prix": 290,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 LIVAN X3 PRO MANUELLE – بسعر 290 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Livan X3 Pro manuelle -3 ans à 290 M tous frais compris (image).",
+    "url": "https://www.facebook.com/ads/library/?id=2040035973361119"
+   },
+   {
+    "id": "3420213491699848",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Envoyer un message",
+    "modele": "GAC M6 Pro 7 places",
+    "prix": 505,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 GAC M6 Pro – سيارة عائلية بـ7 مقاعد!",
+    "resume": "Monospace familial GAC M6 Pro 7 places -3 ans à 505 M TTC.",
+    "url": "https://www.facebook.com/ads/library/?id=3420213491699848"
+   },
+   {
+    "id": "1708516447345958",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 0:48",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 GAC GS3 Medium أقل من 3 سنوات بسعر 368 مليون !",
+    "resume": "GAC GS3 Medium -3 ans à 368 M TTC.",
+    "url": "https://www.facebook.com/ads/library/?id=1708516447345958"
+   },
+   {
+    "id": "2140251646574993",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 GAC GS3 Medium أقل من 3 سنوات بسعر 368 مليون !",
+    "resume": "GAC GS3 Medium -3 ans à 368 M TTC (image).",
+    "url": "https://www.facebook.com/ads/library/?id=2140251646574993"
+   },
+   {
+    "id": "1818627676123537",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 Geely Coolray Battle – بسعر 399 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Coolray Battle gris -3 ans à 399 M TTC.",
+    "url": "https://www.facebook.com/ads/library/?id=1818627676123537"
+   },
+   {
+    "id": "1996724760967696",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 0:32",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 Geely Coolray Battle – بسعر 399 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Coolray Battle gris -3 ans à 399 M TTC (vidéo).",
+    "url": "https://www.facebook.com/ads/library/?id=1996724760967696"
+   },
+   {
+    "id": "1862976948377357",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 0:46",
+    "cta": "Appeler",
+    "modele": "Changan X5 Plus Beyond",
+    "prix": 385,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 Changan X5 Plus Beyond بسعر 385 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Changan X5 Plus Beyond -3 ans à 385 M TTC.",
+    "url": "https://www.facebook.com/ads/library/?id=1862976948377357"
+   },
+   {
+    "id": "1776432486766259",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Changan X5 Plus Beyond",
+    "prix": 385,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 Changan X5 Plus Beyond بسعر 385 مليون سنتيم شامل جميع التكاليف!",
+    "resume": "Changan X5 Plus Beyond -3 ans à 385 M TTC (image).",
+    "url": "https://www.facebook.com/ads/library/?id=1776432486766259"
+   },
+   {
+    "id": "28860905893573846",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Basic",
+    "prix": 399,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 GAC GS3 Basic – القوة والأناقة بسعر 399 مليون سنتيم TTC!",
+    "resume": "GAC GS3 Basic -3 ans annoncée à 399 M TTC (les posts disent 339 M : probable erreur de saisie).",
+    "url": "https://www.facebook.com/ads/library/?id=28860905893573846"
+   },
+   {
+    "id": "1561591582672282",
+    "status": "Active",
+    "start": "2026-10-31",
+    "end": "",
+    "format": "Vidéo 0:40",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Basic",
+    "prix": 399,
+    "base": "Tous frais compris (TTC)",
+    "accroche": "🚗🔥 GAC GS3 Basic – القوة والأناقة بسعر 399 مليون سنتيم TTC!",
+    "resume": "Version vidéo de la GS3 Basic à 399 M TTC (posts : 339 M).",
+    "url": "https://www.facebook.com/ads/library/?id=1561591582672282"
+   },
+   {
     "id": "2883467645362662",
     "status": "Inactive",
     "start": "2026-10-30",
@@ -1812,6 +2290,20 @@
   ],
   "CHM Automotive": [
    {
+    "id": "2388056245065920",
+    "status": "Active",
+    "start": "2026-11-05",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray manuelle",
+    "prix": 305,
+    "base": "Tous frais compris",
+    "accroche": "🔥 Destockage عند CHM Automotive",
+    "resume": "Déstockage Coolray manuelle -3 ans à 305 M douane et tous frais compris, blanc ou gris.",
+    "url": "https://www.facebook.com/ads/library/?id=2388056245065920"
+   },
+   {
     "id": "29283805811248941",
     "status": "Active",
     "start": "2026-11-01",
@@ -1822,7 +2314,8 @@
     "base": "",
     "accroche": "🚗🔥 CHM AUTOMOTIVE 🔥🚗 🇩🇿 عروض السيارات موديل 2026 – أقل من 3 سنوات",
     "resume": "Annonceur « CHM Automotive Tebessa ». Paiement en 3 étapes : 50 M à la réservation, 50 à 100 M avant l'expédition, solde à l'arrivée. Offre valable jusqu'au 10/11/2026.",
-    "url": "https://www.facebook.com/ads/library/?id=29283805811248941"
+    "url": "https://www.facebook.com/ads/library/?id=29283805811248941",
+    "end": ""
    },
    {
     "id": "2153723482201365",
@@ -1833,9 +2326,10 @@
     "modele": "Notoriété (import + vente directe)",
     "prix": null,
     "base": "",
-    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية 🚗",
-    "resume": "Nouvelle pub de notoriété : import et livraison de voitures chinoises, voitures prêtes à la vente directe, appels de 9h à 17h sauf vendredi.",
-    "url": "https://www.facebook.com/ads/library/?id=2153723482201365"
+    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية",
+    "resume": "Import de voitures chinoises et véhicules disponibles en vente directe.",
+    "url": "https://www.facebook.com/ads/library/?id=2153723482201365",
+    "end": ""
    },
    {
     "id": "1458101755718991",
@@ -1861,21 +2355,23 @@
     "prix": null,
     "base": "",
     "accroche": "🚨 DESTOCKAGE عند CHM Automotive 🔥",
-    "resume": "Quantités limitées des modèles les plus demandés, prix « cassés », prêts à l'expédition.",
-    "url": "https://www.facebook.com/ads/library/?id=1136917735735215"
+    "resume": "Déstockage de quantités limitées des modèles les plus demandés.",
+    "url": "https://www.facebook.com/ads/library/?id=1136917735735215",
+    "end": ""
    },
    {
     "id": "1174693191075125",
     "status": "Active",
     "start": "2026-01-14",
     "format": "Image",
-    "cta": "",
+    "cta": "J'aime cette Page",
     "modele": "Notoriété (import + showroom Oran)",
     "prix": null,
     "base": "",
-    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية 🚗",
-    "resume": "Pub d'image active depuis le 14/01/2026 : service d'import et de livraison de voitures chinoises, showroom à Oran, appels de 9h à 17h sauf vendredi. Annonceur « CHM Automotive - ORAN » (peut-être une page séparée).",
-    "url": "https://www.facebook.com/ads/library/?id=1174693191075125"
+    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية",
+    "resume": "Annonceur « CHM Automotive - ORAN ». Import et livraison de voitures chinoises, showroom à Oran.",
+    "url": "https://www.facebook.com/ads/library/?id=1174693191075125",
+    "end": ""
    }
   ],
   "Nesrat Auto": [],
@@ -1885,13 +2381,14 @@
     "status": "Active",
     "start": "2025-11-02",
     "format": "Image",
-    "cta": "",
+    "cta": "J'aime cette Page",
     "modele": "Notoriété (localisation)",
     "prix": null,
     "base": "",
-    "accroche": "China car go — Localisation",
-    "resume": "Pub de notoriété active depuis le 02/11/2025 : numéros de téléphone et lien Google Maps du showroom, sans prix ni modèle.",
-    "url": "https://www.facebook.com/ads/library/?id=829706716138632"
+    "accroche": "China car go",
+    "resume": "Page et localisation du showroom, sans prix.",
+    "url": "https://www.facebook.com/ads/library/?id=829706716138632",
+    "end": ""
    }
   ]
  },

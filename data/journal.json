@@ -1,13 +1,19 @@
 {
  "executions": [
   {
+   "date": "2026-11-06T10:45:12Z",
+   "statut": "ok",
+   "details": "18 prix relevés (Raïs 5, CHM 2, Nesrat 11, China Car Go 0 : vidéos sans légende), 26 pubs actives (Raïs 20 dont 5 lancées le 05/11, CHM 5 dont 1 nouvelle, Nesrat 0, China Car Go 1).",
+   "nouveaux_prix": 18
+  },
+  {
    "date": "2026-11-05T14:42:51Z",
    "statut": "ok",
    "details": "Rattrapage manuel du 05/11 : posts du 30/10 au 05/11 et pubs actives des 4 concurrents.",
    "nouveaux_prix": 25
   }
  ],
- "derniere_execution": "2026-11-05T14:42:51Z",
+ "derniere_execution": "2026-11-06T10:45:12Z",
  "statut": "ok",
- "details": "Rattrapage manuel du 05/11 : posts du 30/10 au 05/11 et pubs actives des 4 concurrents."
+ "details": "18 prix relevés (Raïs 5, CHM 2, Nesrat 11, China Car Go 0 : vidéos sans légende), 26 pubs actives (Raïs 20 dont 5 lancées le 05/11, CHM 5 dont 1 nouvelle, Nesrat 0, China Car Go 1)."
 }
