@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T10:45:12Z",
+ "maj": "2026-11-07T10:23:28Z",
  "unite": "Millions de centimes (M). 1 M = 10 000 DA.",
  "acteurs": [
   {
@@ -117,6 +117,39 @@
   }
  ],
  "observations": [
+  {
+   "date": "2026-11-07",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG5 International",
+   "version": "Manuelle 1.5, carte grise",
+   "prix": 320.0,
+   "base": "Carte grise",
+   "notes": "Showroom Chéraga",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-06",
+   "acteur": "Raïs Cars",
+   "cle": "mg5",
+   "modele": "MG5 Mexicaine",
+   "version": "-3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-06",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "Kaiyi X3 Pro",
+   "version": "CVT 1.5, carte grise",
+   "prix": 385.0,
+   "base": "Carte grise",
+   "notes": "Date approximative (ancienneté non affichée)",
+   "source": "Post Facebook"
+  },
   {
    "date": "2026-11-05",
    "acteur": "Raïs Cars",
@@ -1826,6 +1859,104 @@
  "publicites": {
   "Raïs Cars": [
    {
+    "id": "1775385743540731",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Basic",
+    "prix": 340,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 GAC GS3 Basic – القوة والأناقة بسعر 340 مليون سنتيم TTC!",
+    "resume": "GAC GS3 Basic à 340 M TTC (-3 ans), en baisse de 59 M par rapport à la pub précédente à 399 M.",
+    "url": "https://www.facebook.com/ads/library/?id=1775385743540731"
+   },
+   {
+    "id": "1839488253855267",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🔥 GAC GS3 MEDIUM – الأناقة والقوة! 🚗",
+    "resume": "GAC GS3 Medium gris à 368 M tous frais compris.",
+    "url": "https://www.facebook.com/ads/library/?id=1839488253855267"
+   },
+   {
+    "id": "1707289007689192",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Vidéo 1:08",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🔥 GAC GS3 MEDIUM – الأناقة والقوة! 🚗",
+    "resume": "Vidéo GAC GS3 Medium gris à 368 M tous frais compris.",
+    "url": "https://www.facebook.com/ads/library/?id=1707289007689192"
+   },
+   {
+    "id": "1139852615521753",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Vidéo 0:48",
+    "cta": "Appeler",
+    "modele": "GAC GS3 Medium",
+    "prix": 368,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🚗🔥 GAC GS3 Medium أقل من 3 سنوات بسعر 368 مليون !",
+    "resume": "Vidéo GAC GS3 Medium -3 ans à 368 M TTC (relance).",
+    "url": "https://www.facebook.com/ads/library/?id=1139852615521753"
+   },
+   {
+    "id": "1111131314859622",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Vidéo 0:41",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🔥 GEELY COOLRAY BATTLE – القوة والأناقة في إصدار واحد! 🚗",
+    "resume": "Vidéo Coolray Battle à 399 M tous frais compris, mise en avant boîte auto, caméra 360° et toit panoramique.",
+    "url": "https://www.facebook.com/ads/library/?id=1111131314859622"
+   },
+   {
+    "id": "1475376571176452",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Image",
+    "cta": "Appeler",
+    "modele": "Geely Coolray Battle",
+    "prix": 399,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🔥 GEELY COOLRAY BATTLE – القوة والأناقة في إصدار واحد! 🚗",
+    "resume": "Coolray Battle à 399 M tous frais compris (-3 ans).",
+    "url": "https://www.facebook.com/ads/library/?id=1475376571176452"
+   },
+   {
+    "id": "1116826084313745",
+    "status": "Active",
+    "start": "2026-11-06",
+    "end": "",
+    "format": "Vidéo 0:48",
+    "cta": "Appeler",
+    "modele": "Geely Coolray manuelle",
+    "prix": 318,
+    "base": "Tous frais compris (TTC), -3 ans",
+    "accroche": "🔥 GEELY COOLRAY MANUEL 🚗",
+    "resume": "Vidéo Coolray manuelle à 318 M tous frais compris (-3 ans).",
+    "url": "https://www.facebook.com/ads/library/?id=1116826084313745"
+   },
+   {
     "id": "978576001478890",
     "status": "Active",
     "start": "2026-11-05",
@@ -1995,7 +2126,7 @@
    },
    {
     "id": "1708516447345958",
-    "status": "Active",
+    "status": "Inactive",
     "start": "2026-10-31",
     "end": "",
     "format": "Vidéo 0:48",
@@ -2079,7 +2210,7 @@
    },
    {
     "id": "28860905893573846",
-    "status": "Active",
+    "status": "Inactive",
     "start": "2026-10-31",
     "end": "",
     "format": "Image",
@@ -2290,6 +2421,20 @@
   ],
   "CHM Automotive": [
    {
+    "id": "1855076365484104",
+    "status": "Active",
+    "start": "2026-11-07",
+    "end": "",
+    "format": "Image",
+    "cta": "",
+    "modele": "MG5 International",
+    "prix": 320,
+    "base": "Carte grise",
+    "accroche": "MG5 INTERNATIONNAL",
+    "resume": "MG5 International manuelle 1.5 (blanc/silver) à 320 M avec carte grise, showroom Chéraga.",
+    "url": "https://www.facebook.com/ads/library/?id=1855076365484104"
+   },
+   {
     "id": "2388056245065920",
     "status": "Active",
     "start": "2026-11-05",
@@ -2305,7 +2450,7 @@
    },
    {
     "id": "29283805811248941",
-    "status": "Active",
+    "status": "Inactive",
     "start": "2026-11-01",
     "format": "Vidéo 1:13",
     "cta": "",
@@ -2318,8 +2463,22 @@
     "end": ""
    },
    {
-    "id": "2153723482201365",
+    "id": "4566826790239651",
     "status": "Active",
+    "start": "2026-11-01",
+    "end": "",
+    "format": "Image",
+    "cta": "J'aime cette Page",
+    "modele": "Notoriété (import + vente directe)",
+    "prix": null,
+    "base": "",
+    "accroche": "نوفر في CHM AUTOMOTIVE 🇨🇳 خدمة شحن وتسليم السيارات الصينية بأسعار تنافسية 🚗",
+    "resume": "Pub de notoriété : service d'import et livraison de voitures chinoises, véhicules disponibles en vente directe.",
+    "url": "https://www.facebook.com/ads/library/?id=4566826790239651"
+   },
+   {
+    "id": "2153723482201365",
+    "status": "Inactive",
     "start": "2026-10-31",
     "format": "Image",
     "cta": "",
