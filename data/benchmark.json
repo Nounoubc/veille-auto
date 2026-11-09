@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T10:23:28Z",
+ "maj": "2026-11-09T08:46:39Z",
  "unite": "Millions de centimes (M). 1 M = 10 000 DA.",
  "acteurs": [
   {
@@ -118,6 +118,138 @@
  ],
  "observations": [
   {
+   "date": "2026-11-08",
+   "acteur": "Raïs Cars",
+   "cle": "mg5",
+   "modele": "MG5 Mexicaine",
+   "version": "-3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus Beyond",
+   "version": "-3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Version non précisée dans le post ; prix identique à la Beyond (auto)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Nesrat Auto",
+   "cle": "changan_x5plus",
+   "modele": "Changan X5 Plus",
+   "version": "Manuelle",
+   "prix": 325.0,
+   "base": "Tous frais compris",
+   "notes": "Prix après réduction",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Automatique, blanc",
+   "prix": 299.0,
+   "base": "Tous frais compris",
+   "notes": "Date approximative (post de moins de 16 h)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Automatique, blanc",
+   "prix": 240.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date approximative (post de moins de 16 h)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Automatique, gris",
+   "prix": 305.0,
+   "base": "Tous frais compris",
+   "notes": "Date approximative (post de moins de 16 h)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Automatique, gris",
+   "prix": 245.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date approximative (post de moins de 16 h)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-08",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "MG5 International",
+   "version": "Manuelle, carte grise",
+   "prix": 320.0,
+   "base": "Carte grise",
+   "notes": "Showroom Chéraga",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-07",
+   "acteur": "Raïs Cars",
+   "cle": "mg5",
+   "modele": "MG5 Mexicaine",
+   "version": "-3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-07",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Jetour X70L",
+   "version": "7 places",
+   "prix": 720.0,
+   "base": "Carte grise",
+   "notes": "Date approximative (entre 16 h et 5 j)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-07",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos",
+   "version": "Luxury, automatique",
+   "prix": 395.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date approximative (entre 16 h et 5 j)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-07",
+   "acteur": "Nesrat Auto",
+   "cle": "",
+   "modele": "Kia Seltos",
+   "version": "Full option, automatique",
+   "prix": 420.0,
+   "base": "Port d'Alger (hors douane)",
+   "notes": "Date approximative (entre 16 h et 5 j)",
+   "source": "Post Facebook"
+  },
+  {
    "date": "2026-11-07",
    "acteur": "CHM Automotive",
    "cle": "",
@@ -129,12 +261,45 @@
    "source": "Post Facebook"
   },
   {
+   "date": "2026-11-07",
+   "acteur": "CHM Automotive",
+   "cle": "",
+   "modele": "Kaiyi X3 Pro",
+   "version": "CVT, carte grise",
+   "prix": 385.0,
+   "base": "Carte grise",
+   "notes": "Date approximative (ancienneté non affichée, entre 23 h et 3 j)",
+   "source": "Post Facebook"
+  },
+  {
    "date": "2026-11-06",
    "acteur": "Raïs Cars",
    "cle": "mg5",
    "modele": "MG5 Mexicaine",
    "version": "-3 ans",
    "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-06",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus Beyond",
+   "version": "-3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Version non précisée dans le post ; prix identique à la Beyond (auto)",
+   "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-06",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3 Medium",
+   "version": "-3 ans",
+   "prix": 368.0,
    "base": "Tous frais compris",
    "notes": "",
    "source": "Post Facebook"
@@ -1859,6 +2024,20 @@
  "publicites": {
   "Raïs Cars": [
    {
+    "id": "2215542776065432",
+    "status": "Active",
+    "start": "2026-11-08",
+    "end": "",
+    "format": "Vidéo 0:39",
+    "cta": "",
+    "modele": "",
+    "prix": "",
+    "base": "",
+    "accroche": "🚗 سيارتك تستاهل العناية… وRAIS CARS تهتم بيها! 🔧❤️",
+    "resume": "Vidéo de promotion du service après-vente (vidange, filtres, vérification, accessoires, entretien).",
+    "url": "https://www.facebook.com/ads/library/?id=2215542776065432"
+   },
+   {
     "id": "1775385743540731",
     "status": "Active",
     "start": "2026-11-06",
@@ -2000,7 +2179,7 @@
    },
    {
     "id": "2699789570531041",
-    "status": "Active",
+    "status": "Inactive",
     "start": "2026-11-05",
     "end": "",
     "format": "Vidéo 0:57",
@@ -2506,7 +2685,7 @@
    },
    {
     "id": "1136917735735215",
-    "status": "Active",
+    "status": "Inactive",
     "start": "2026-10-28",
     "format": "Image",
     "cta": "Appeler",
