@@ -1,6 +1,12 @@
 {
  "executions": [
   {
+   "date": "2026-11-19T15:24:59Z",
+   "statut": "ok",
+   "details": "Saisie manuelle : listes de prix Raïs Cars du 29/10 et du 05/11 (images transmises), 30 prix TTC -3 ans.",
+   "nouveaux_prix": 29
+  },
+  {
    "date": "2026-11-19T14:50:56Z",
    "statut": "échec",
    "details": "Passage de 14h42 (premier du jour) : navigateur intégré bloqué — la page Facebook de Raïs Cars a commencé à charger puis le navigateur ne répond plus (pages qui ne finissent pas de charger, fenêtre de l'app Claude réduite ou masquée). Aucune donnée collectée.",
@@ -31,7 +37,7 @@
    "nouveaux_prix": 25
   }
  ],
- "derniere_execution": "2026-11-19T14:50:56Z",
- "statut": "échec",
- "details": "Passage de 14h42 (premier du jour) : navigateur intégré bloqué — la page Facebook de Raïs Cars a commencé à charger puis le navigateur ne répond plus (pages qui ne finissent pas de charger, fenêtre de l'app Claude réduite ou masquée). Aucune donnée collectée."
+ "derniere_execution": "2026-11-19T15:24:59Z",
+ "statut": "ok",
+ "details": "Saisie manuelle : listes de prix Raïs Cars du 29/10 et du 05/11 (images transmises), 30 prix TTC -3 ans."
 }

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T08:46:39Z",
+ "maj": "2026-11-19T15:24:59Z",
  "unite": "Millions de centimes (M). 1 M = 10 000 DA.",
  "acteurs": [
   {
@@ -358,6 +358,138 @@
    "base": "Tous frais compris",
    "notes": "Post « coolray vs gac gs3 » ; version Smart d'après la pub à 409 M",
    "source": "Post Facebook"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan CS75",
+   "version": "Plus, -3 ans",
+   "prix": 550.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond, -3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Beyond Pro, -3 ans",
+   "prix": 392.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Excellence, -3 ans",
+   "prix": 405.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Changan X5 Plus",
+   "version": "Excellence Pro, -3 ans",
+   "prix": 420.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "jetour_x70l",
+   "modele": "Jetour X70 L",
+   "version": "Luxury 7 places, -3 ans",
+   "prix": 595.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "jetta_vs5",
+   "modele": "Jetta VS5",
+   "version": "Full options, -3 ans",
+   "prix": 475.0,
+   "base": "Tous frais compris",
+   "notes": "Gris Nardo / kit black ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "mg5",
+   "modele": "MG5",
+   "version": "Mexicaine, -3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "MG5",
+   "version": "Modèle 2023, -3 ans",
+   "prix": 290.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "MG3",
+   "version": "Manuel, -3 ans",
+   "prix": 320.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "roewe_i5",
+   "modele": "Roewe i5",
+   "version": "Manuel, -3 ans",
+   "prix": 280.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-11-05",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Volkswagen T-Roc",
+   "version": "Kit Black, -3 ans",
+   "prix": 645.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
   },
   {
    "date": "2026-11-05",
@@ -831,6 +963,193 @@
    "base": "Tous frais compris",
    "notes": "",
    "source": "Post Facebook"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "livan_mt",
+   "modele": "Livan X3 Pro",
+   "version": "Manuelle, -3 ans",
+   "prix": 295.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Livan X3 Pro",
+   "version": "Automatique, -3 ans",
+   "prix": 315.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Battle, -3 ans",
+   "prix": 399.0,
+   "base": "Tous frais compris",
+   "notes": "Gris ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle, -3 ans",
+   "prix": 412.0,
+   "base": "Tous frais compris",
+   "notes": "Blanc ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Battle, -3 ans",
+   "prix": 427.0,
+   "base": "Tous frais compris",
+   "notes": "Silver ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_full",
+   "modele": "Geely Coolray",
+   "version": "Full options, -3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Blanc / gris ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 318.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "Geely Coolray",
+   "version": "Manuelle, -3 ans",
+   "prix": 320.0,
+   "base": "Tous frais compris",
+   "notes": "Selon couleur ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs3_basic",
+   "modele": "GAC GS3",
+   "version": "Basic, -3 ans",
+   "prix": 340.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium, -3 ans",
+   "prix": 368.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium Plus, -3 ans",
+   "prix": 385.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs3_smart",
+   "modele": "GAC GS3",
+   "version": "Smart, -3 ans",
+   "prix": 409.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "R Style, -3 ans",
+   "prix": 415.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC M6 Pro",
+   "version": "7 places, -3 ans",
+   "prix": 505.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "",
+   "modele": "GAC Empow",
+   "version": "R Style, -3 ans",
+   "prix": 470.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "gac_gs4_max",
+   "modele": "GAC GS4",
+   "version": "Max, -3 ans",
+   "prix": 470.0,
+   "base": "Tous frais compris",
+   "notes": "Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
+  },
+  {
+   "date": "2026-10-29",
+   "acteur": "Raïs Cars",
+   "cle": "audi_a3",
+   "modele": "Audi A3",
+   "version": "Luxury, -3 ans",
+   "prix": 648.0,
+   "base": "Tous frais compris",
+   "notes": "Gris kit black ; Prix TTC de la liste",
+   "source": "Liste des prix Raïs Cars (image)"
   },
   {
    "date": "2026-10-29",
