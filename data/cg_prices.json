@@ -203,7 +203,7 @@
    "modele": "Chery Arrizo 5",
    "version": "MT, neuf",
    "base": "TTC neuf",
-   "prix": 367
+   "prix": 317
   },
   {
    "cle": "",
@@ -718,6 +718,14 @@
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
    "prix": 305,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "arrizo5_neuf",
+   "modele": "Chery Arrizo 5",
+   "version": "MT, neuf",
+   "base": "TTC neuf",
+   "prix": 317,
    "date": "2026-11-19"
   }
  ]
