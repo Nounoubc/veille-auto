@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-09",
- "par": "Saisie plateforme",
+ "maj": "2026-11-19",
+ "par": "Saisie grille CG Cars",
  "prix": [
   {
    "cle": "coolray_full",
@@ -21,7 +21,7 @@
    "modele": "Geely Coolray",
    "version": "Battle, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 409
+   "prix": 399
   },
   {
    "cle": "",
@@ -56,7 +56,7 @@
    "modele": "Geely Coolray",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 325
+   "prix": 329
   },
   {
    "cle": "",
@@ -70,7 +70,7 @@
    "modele": "Livan",
    "version": "MT + toit, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299
+   "prix": 290
   },
   {
    "cle": "livan_mt_neuf",
@@ -84,7 +84,7 @@
    "modele": "Livan",
    "version": "CVT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309
+   "prix": 310
   },
   {
    "cle": "",
@@ -179,6 +179,20 @@
   },
   {
    "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 368
+  },
+  {
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium Plus, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 385
+  },
+  {
+   "cle": "",
    "modele": "Chery Arrizo 5",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
@@ -217,7 +231,7 @@
    "modele": "Shineray",
    "version": "9 places, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 309
+   "prix": 329
   },
   {
    "cle": "",
@@ -252,7 +266,7 @@
    "modele": "Chery Tiggo 2",
    "version": "MT, -3 ans",
    "base": "TTC -3 ans",
-   "prix": 299.9
+   "prix": 299
   },
   {
    "cle": "tiggo2_neuf",
@@ -633,6 +647,70 @@
    "base": "TTC -3 ans",
    "prix": 459,
    "date": "2026-10-30"
+  },
+  {
+   "cle": "coolray_battle",
+   "modele": "Geely Coolray",
+   "version": "Battle, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 399,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "coolray_mt",
+   "modele": "Geely Coolray",
+   "version": "MT, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 329,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "livan_mt",
+   "modele": "Livan",
+   "version": "MT + toit, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 290,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "",
+   "modele": "Livan",
+   "version": "CVT, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 310,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "",
+   "modele": "Shineray",
+   "version": "9 places, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 329,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "",
+   "modele": "Chery Tiggo 2",
+   "version": "MT, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 299,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 368,
+   "date": "2026-11-19"
+  },
+  {
+   "cle": "",
+   "modele": "GAC GS3",
+   "version": "Medium Plus, -3 ans",
+   "base": "TTC -3 ans",
+   "prix": 385,
+   "date": "2026-11-19"
   }
  ]
 }
