@@ -1,6 +1,12 @@
 {
  "executions": [
   {
+   "date": "2026-11-19T14:50:56Z",
+   "statut": "échec",
+   "details": "Passage de 14h42 (premier du jour) : navigateur intégré bloqué — la page Facebook de Raïs Cars a commencé à charger puis le navigateur ne répond plus (pages qui ne finissent pas de charger, fenêtre de l'app Claude réduite ou masquée). Aucune donnée collectée.",
+   "nouveaux_prix": 0
+  },
+  {
    "date": "2026-11-09T08:46:39Z",
    "statut": "ok",
    "details": "Collecte du matin (passage de 8h33, celui de 7h33 n'a pas tourné) : 15 prix relevés (Raïs 5, CHM 2, Nesrat 8, China Car Go 0 : vidéos sans légende), 30 pubs actives (Raïs 25 dont 1 nouvelle le 08/11, 1 arrêtée ; CHM 4, 1 arrêtée ; Nesrat 0 ; China Car Go 1). Quelques dates de posts approximatives (ancienneté non affichée).",
@@ -25,7 +31,7 @@
    "nouveaux_prix": 25
   }
  ],
- "derniere_execution": "2026-11-09T08:46:39Z",
- "statut": "ok",
- "details": "Collecte du matin (passage de 8h33, celui de 7h33 n'a pas tourné) : 15 prix relevés (Raïs 5, CHM 2, Nesrat 8, China Car Go 0 : vidéos sans légende), 30 pubs actives (Raïs 25 dont 1 nouvelle le 08/11, 1 arrêtée ; CHM 4, 1 arrêtée ; Nesrat 0 ; China Car Go 1). Quelques dates de posts approximatives (ancienneté non affichée)."
+ "derniere_execution": "2026-11-19T14:50:56Z",
+ "statut": "échec",
+ "details": "Passage de 14h42 (premier du jour) : navigateur intégré bloqué — la page Facebook de Raïs Cars a commencé à charger puis le navigateur ne répond plus (pages qui ne finissent pas de charger, fenêtre de l'app Claude réduite ou masquée). Aucune donnée collectée."
 }
